@@ -128,8 +128,11 @@ if st.session_state.started:
     st.subheader(f"Question {st.session_state.current_q}")
     st.write(question["question_text"])
 
-    # ✅ DISPLAY FULL OPTIONS
+    # =========================================
+    # OPTIONS (NO AUTO-SELECTION)
+    # =========================================
     options = {
+        "-- Select an option --": "",
         "A": question["option_a"],
         "B": question["option_b"],
         "C": question["option_c"],
@@ -139,11 +142,15 @@ if st.session_state.started:
     answer = st.radio(
         "Choose your answer",
         options.keys(),
-        format_func=lambda x: f"{x}. {options[x]}",
+        format_func=lambda x: x if x.startswith("--") else f"{x}. {options[x]}",
         key=f"q_{st.session_state.current_q}"
     )
 
     if st.button("Submit Answer"):
+
+        if answer == "-- Select an option --":
+            st.warning("⚠️ Please select an option before submitting")
+            st.stop()
 
         correct = (answer == question["correct_option"])
 
@@ -157,7 +164,7 @@ if st.session_state.started:
             )
 
         # =========================================
-        # EASY BLOCK ADAPTIVE LOGIC (3 QUESTIONS)
+        # EASY BLOCK ADAPTIVE LOGIC
         # =========================================
         if st.session_state.current_difficulty == 1:
             st.session_state.easy_block_total += 1
@@ -196,6 +203,5 @@ if st.session_state.started:
             result_df = pd.DataFrame(st.session_state.attempts)
             st.write("### Final Result")
             st.write(result_df)
-
         else:
             st.rerun()
