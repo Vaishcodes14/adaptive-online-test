@@ -13,7 +13,7 @@ def load_data():
 df = load_data()
 
 # =========================================
-# SESSION STATE INITIALIZATION (MUST BE FIRST)
+# SESSION STATE INITIALIZATION
 # =========================================
 if "started" not in st.session_state:
     st.session_state.started = False
@@ -75,18 +75,14 @@ if not st.session_state.started:
     )
 
     if st.button("Start Test"):
-
         if subject == "-- Select Subject --" or total_questions == "-- Select Count --":
             st.warning("⚠️ Please select subject and number of questions")
-
         else:
-            # START TEST
             st.session_state.started = True
             st.session_state.subject = subject
             st.session_state.total_questions = total_questions
             st.session_state.start_time = time.time()
 
-            # RESET STATE
             st.session_state.current_q = 1
             st.session_state.current_difficulty = 1
             st.session_state.easy_toggle = 0
@@ -132,9 +128,18 @@ if st.session_state.started:
     st.subheader(f"Question {st.session_state.current_q}")
     st.write(question["question_text"])
 
+    # ✅ DISPLAY FULL OPTIONS
+    options = {
+        "A": question["option_a"],
+        "B": question["option_b"],
+        "C": question["option_c"],
+        "D": question["option_d"]
+    }
+
     answer = st.radio(
         "Choose your answer",
-        ["A", "B", "C", "D"],
+        options.keys(),
+        format_func=lambda x: f"{x}. {options[x]}",
         key=f"q_{st.session_state.current_q}"
     )
 
@@ -145,7 +150,11 @@ if st.session_state.started:
         if correct:
             st.success("✅ Correct Answer")
         else:
-            st.error(f"❌ Wrong | Correct Answer: {question['correct_option']}")
+            st.error(
+                f"❌ Wrong | Correct Answer: "
+                f"{question['correct_option']}. "
+                f"{options[question['correct_option']]}"
+            )
 
         # =========================================
         # EASY BLOCK ADAPTIVE LOGIC (3 QUESTIONS)
