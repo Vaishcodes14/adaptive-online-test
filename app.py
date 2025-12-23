@@ -67,31 +67,34 @@ if "started" not in st.session_state:
 # -------------------------------
 st.title("📝 Adaptive Online Test")
 
+st.write("DEBUG started =", st.session_state.started)
+
 if not st.session_state.started:
 
     subject = st.selectbox(
         "Select Subject",
-        ["-- Select Subject --", "Aptitude", "English", "GK"]
+        ["-- Select Subject --", "Aptitude", "English", "GK"],
+        key="subject_select"
     )
 
     total_questions = st.selectbox(
         "Select Number of Questions",
-        ["-- Select Count --", 30, 50, 100]
+        ["-- Select Count --", 30, 50, 100],
+        key="count_select"
     )
 
-    if st.button("Start Test"):
+    if st.button("Start Test", key="start_button"):
 
         if subject == "-- Select Subject --" or total_questions == "-- Select Count --":
             st.warning("⚠️ Please select subject and number of questions")
 
         else:
-            # ✅ THIS IS THE KEY PART
+            # 🔥 THIS IS THE MOST IMPORTANT PART
             st.session_state.started = True
             st.session_state.subject = subject
             st.session_state.total_questions = total_questions
             st.session_state.start_time = time.time()
 
-            # Reset test state
             st.session_state.current_q = 1
             st.session_state.current_difficulty = 1
             st.session_state.easy_toggle = 0
@@ -101,5 +104,5 @@ if not st.session_state.started:
             st.session_state.attempts = []
             st.session_state.current_question = None
 
-            st.success(f"✅ {subject} test started!")
+            st.success(f"✅ {subject} test started")
             st.rerun()
