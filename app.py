@@ -22,9 +22,9 @@ if "started" not in st.session_state:
     st.session_state.start_time = None
     st.session_state.current_q = 1
     st.session_state.current_difficulty = 1
-    st.session_state.easy_toggle = 0
-    st.session_state.easy_block_total = 0
-    st.session_state.easy_block_correct = 0
+    st.session_state.block_total = 0
+    st.session_state.block_correct = 0
+    st.session_state.block_wrong = 0
     st.session_state.asked_ids = set()
     st.session_state.attempts = []
     st.session_state.current_question = None
@@ -35,22 +35,11 @@ if "started" not in st.session_state:
 def get_questions_by_subject(subject):
     return df[df["subject"] == subject].copy()
 
-def select_question(questions_df, difficulty, asked_ids, easy_toggle):
-    pool = questions_df[~questions_df["question_id"].isin(asked_ids)]
-
-    if difficulty == 1:
-        if easy_toggle == 0:
-            pool = pool[
-                (pool["difficulty_level"] == 1) &
-                (pool["topic"] == "Percentages")
-            ]
-        else:
-            pool = pool[
-                (pool["difficulty_level"] == 1) &
-                (pool["topic"] == "Ratio & Proportion")
-            ]
-    else:
-        pool = pool[pool["difficulty_level"] == difficulty]
+def select_question(questions_df, difficulty, asked_ids):
+    pool = questions_df[
+        (questions_df["difficulty_level"] == difficulty) &
+        (~questions_df["question_id"].isin(asked_ids))
+    ]
 
     if pool.empty:
         pool = questions_df[~questions_df["question_id"].isin(asked_ids)]
@@ -85,9 +74,9 @@ if not st.session_state.started:
 
             st.session_state.current_q = 1
             st.session_state.current_difficulty = 1
-            st.session_state.easy_toggle = 0
-            st.session_state.easy_block_total = 0
-            st.session_state.easy_block_correct = 0
+            st.session_state.block_total = 0
+            st.session_state.block_correct = 0
+            st.session_state.block_wrong = 0
             st.session_state.asked_ids = set()
             st.session_state.attempts = []
             st.session_state.current_question = None
@@ -117,8 +106,7 @@ if st.session_state.started:
         question = select_question(
             questions_df,
             st.session_state.current_difficulty,
-            st.session_state.asked_ids,
-            st.session_state.easy_toggle
+            st.session_state.asked_ids
         )
         st.session_state.current_question = question
         st.session_state.asked_ids.add(question["question_id"])
@@ -128,9 +116,6 @@ if st.session_state.started:
     st.subheader(f"Question {st.session_state.current_q}")
     st.write(question["question_text"])
 
-    # =========================================
-    # OPTIONS (NO AUTO-SELECTION)
-    # =========================================
     options = {
         "-- Select an option --": "",
         "A": question["option_a"],
@@ -149,39 +134,44 @@ if st.session_state.started:
     if st.button("Submit Answer"):
 
         if answer == "-- Select an option --":
-            st.warning("⚠️ Please select an option before submitting")
+            st.warning("⚠️ Please select an option")
             st.stop()
 
         correct = (answer == question["correct_option"])
 
         if correct:
-            st.success("✅ Correct Answer")
+            st.success("✅ Correct")
+            st.session_state.block_correct += 1
         else:
             st.error(
-                f"❌ Wrong | Correct Answer: "
-                f"{question['correct_option']}. "
+                f"❌ Wrong | Correct: {question['correct_option']}. "
                 f"{options[question['correct_option']]}"
             )
+            st.session_state.block_wrong += 1
+
+        st.session_state.block_total += 1
 
         # =========================================
-        # EASY BLOCK ADAPTIVE LOGIC
+        # BLOCK-BASED DIFFICULTY UPDATE
         # =========================================
-        if st.session_state.current_difficulty == 1:
-            st.session_state.easy_block_total += 1
-            if correct:
-                st.session_state.easy_block_correct += 1
+        if st.session_state.block_total == 3:
 
-            if st.session_state.easy_block_total == 3:
-                if st.session_state.easy_block_correct == 3:
-                    st.session_state.current_difficulty = 2
-                    st.success("🎯 Promoted to Easy–Medium level!")
-                else:
-                    st.info("🔁 Staying at Easy level")
+            if st.session_state.block_correct == 3:
+                st.session_state.current_difficulty = min(
+                    st.session_state.current_difficulty + 1, 5
+                )
+                st.success("⬆ Difficulty Increased")
 
-                st.session_state.easy_block_total = 0
-                st.session_state.easy_block_correct = 0
+            elif st.session_state.block_wrong == 3:
+                st.session_state.current_difficulty = max(
+                    st.session_state.current_difficulty - 1, 1
+                )
+                st.warning("⬇ Difficulty Decreased")
 
-            st.session_state.easy_toggle = 1 - st.session_state.easy_toggle
+            # Reset block counters
+            st.session_state.block_total = 0
+            st.session_state.block_correct = 0
+            st.session_state.block_wrong = 0
 
         # LOG ATTEMPT
         st.session_state.attempts.append({
@@ -195,13 +185,10 @@ if st.session_state.started:
         st.session_state.current_q += 1
         st.session_state.current_question = None
 
-        # END TEST
         if st.session_state.current_q > st.session_state.total_questions:
             st.session_state.started = False
             st.success("🎉 Test Completed")
-
-            result_df = pd.DataFrame(st.session_state.attempts)
             st.write("### Final Result")
-            st.write(result_df)
+            st.write(pd.DataFrame(st.session_state.attempts))
         else:
             st.rerun()
