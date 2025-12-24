@@ -1,194 +1,101 @@
 import streamlit as st
 import pandas as pd
 import time
-from datetime import datetime
+import random
 
-# =========================================
-# LOAD DATASET
-# =========================================
+# ------------------ CONFIG ------------------
+st.set_page_config(page_title="Adaptive Online Exam", layout="centered")
+
+DATA_PATH = "master_adaptive_exam_1485_questions.xlsx"
+
+# ------------------ LOAD DATA ------------------
 @st.cache_data
 def load_data():
-    return pd.read_csv("govt_exam_3000_questions_SYNTHETIC_FIXED_TIME.csv")
+    return pd.read_excel(DATA_PATH)
 
 df = load_data()
 
-# =========================================
-# SESSION STATE INITIALIZATION
-# =========================================
+# ------------------ SESSION STATE ------------------
 if "started" not in st.session_state:
     st.session_state.started = False
-    st.session_state.subject = None
-    st.session_state.total_questions = 0
-    st.session_state.start_time = None
-    st.session_state.current_q = 1
-    st.session_state.current_difficulty = 1
-    st.session_state.block_total = 0
-    st.session_state.block_correct = 0
-    st.session_state.block_wrong = 0
-    st.session_state.asked_ids = set()
-    st.session_state.attempts = []
-    st.session_state.current_question = None
+if "q_index" not in st.session_state:
+    st.session_state.q_index = 0
+if "score" not in st.session_state:
+    st.session_state.score = 0
+if "questions" not in st.session_state:
+    st.session_state.questions = []
+if "answers" not in st.session_state:
+    st.session_state.answers = []
 
-# =========================================
-# HELPER FUNCTIONS
-# =========================================
-def get_questions_by_subject(subject):
-    return df[df["subject"] == subject].copy()
-
-def select_question(questions_df, difficulty, asked_ids):
-    pool = questions_df[
-        (questions_df["difficulty_level"] == difficulty) &
-        (~questions_df["question_id"].isin(asked_ids))
-    ]
-
-    if pool.empty:
-        pool = questions_df[~questions_df["question_id"].isin(asked_ids)]
-
-    return pool.sample(1).iloc[0]
-
-# =========================================
-# START SCREEN
-# =========================================
-st.title("📝 Adaptive Online Test")
-
+# ------------------ START SCREEN ------------------
 if not st.session_state.started:
+    st.title("📝 Online Test System")
 
     subject = st.selectbox(
         "Select Subject",
-        ["-- Select Subject --", "Aptitude", "English", "GK"]
+        ["Aptitude", "GK", "English"]
     )
 
-    total_questions = st.selectbox(
+    q_count = st.selectbox(
         "Select Number of Questions",
-        ["-- Select Count --", 30, 50, 100]
+        [30, 50, 100]
     )
 
     if st.button("Start Test"):
-        if subject == "-- Select Subject --" or total_questions == "-- Select Count --":
-            st.warning("⚠️ Please select subject and number of questions")
-        else:
-            st.session_state.started = True
-            st.session_state.subject = subject
-            st.session_state.total_questions = total_questions
-            st.session_state.start_time = time.time()
-
-            st.session_state.current_q = 1
-            st.session_state.current_difficulty = 1
-            st.session_state.block_total = 0
-            st.session_state.block_correct = 0
-            st.session_state.block_wrong = 0
-            st.session_state.asked_ids = set()
-            st.session_state.attempts = []
-            st.session_state.current_question = None
-
-            st.rerun()
-
-# =========================================
-# TEST SCREEN
-# =========================================
-if st.session_state.started:
-
-    elapsed = time.time() - st.session_state.start_time
-    remaining = st.session_state.total_questions * 60 - elapsed
-
-    if remaining <= 0:
-        st.warning("⏰ Time is up!")
-        st.session_state.started = False
+        subset = df[df["subject"] == subject].sample(q_count)
+        st.session_state.questions = subset.reset_index(drop=True)
+        st.session_state.started = True
+        st.session_state.start_time = time.time()
+        st.session_state.total_time = q_count * 60
         st.rerun()
 
-    st.info(f"⏳ Remaining Time: {int(remaining//60)}m {int(remaining%60)}s")
-    st.write(f"**Subject:** {st.session_state.subject}")
-    st.write(f"**Difficulty Level:** {st.session_state.current_difficulty}")
+# ------------------ TEST SCREEN ------------------
+else:
+    questions = st.session_state.questions
+    q_no = st.session_state.q_index
 
-    questions_df = get_questions_by_subject(st.session_state.subject)
+    elapsed = int(time.time() - st.session_state.start_time)
+    remaining = st.session_state.total_time - elapsed
 
-    if st.session_state.current_question is None:
-        question = select_question(
-            questions_df,
-            st.session_state.current_difficulty,
-            st.session_state.asked_ids
-        )
-        st.session_state.current_question = question
-        st.session_state.asked_ids.add(question["question_id"])
-    else:
-        question = st.session_state.current_question
+    if remaining <= 0 or q_no >= len(questions):
+        st.subheader("⏱ Test Completed")
+        st.write(f"Score: **{st.session_state.score} / {len(questions)}**")
 
-    st.subheader(f"Question {st.session_state.current_q}")
-    st.write(question["question_text"])
+        percent = round((st.session_state.score / len(questions)) * 100, 2)
+        st.write(f"Accuracy: **{percent}%**")
+
+        st.stop()
+
+    q = questions.iloc[q_no]
+
+    st.progress(q_no / len(questions))
+    st.write(f"⏳ Time Left: {remaining//60} min {remaining%60} sec")
+
+    st.subheader(f"Question {q_no + 1}")
+    st.write(q["question_text"])
 
     options = {
-        "-- Select an option --": "",
-        "A": question["option_a"],
-        "B": question["option_b"],
-        "C": question["option_c"],
-        "D": question["option_d"]
+        "A": q["option_a"],
+        "B": q["option_b"],
+        "C": q["option_c"],
+        "D": q["option_d"],
     }
 
-    answer = st.radio(
-        "Choose your answer",
+    choice = st.radio(
+        "Choose an option:",
         options.keys(),
-        format_func=lambda x: x if x.startswith("--") else f"{x}. {options[x]}",
-        key=f"q_{st.session_state.current_q}"
+        format_func=lambda x: f"{x}. {options[x]}"
     )
 
     if st.button("Submit Answer"):
+        correct = q["correct_option"]
 
-        if answer == "-- Select an option --":
-            st.warning("⚠️ Please select an option")
-            st.stop()
-
-        correct = (answer == question["correct_option"])
-
-        if correct:
-            st.success("✅ Correct")
-            st.session_state.block_correct += 1
+        if choice == correct:
+            st.success("✅ Correct!")
+            st.session_state.score += 1
         else:
-            st.error(
-                f"❌ Wrong | Correct: {question['correct_option']}. "
-                f"{options[question['correct_option']]}"
-            )
-            st.session_state.block_wrong += 1
+            st.error(f"❌ Wrong! Correct Answer: {correct}")
 
-        st.session_state.block_total += 1
-
-        # =========================================
-        # BLOCK-BASED DIFFICULTY UPDATE
-        # =========================================
-        if st.session_state.block_total == 3:
-
-            if st.session_state.block_correct == 3:
-                st.session_state.current_difficulty = min(
-                    st.session_state.current_difficulty + 1, 5
-                )
-                st.success("⬆ Difficulty Increased")
-
-            elif st.session_state.block_wrong == 3:
-                st.session_state.current_difficulty = max(
-                    st.session_state.current_difficulty - 1, 1
-                )
-                st.warning("⬇ Difficulty Decreased")
-
-            # Reset block counters
-            st.session_state.block_total = 0
-            st.session_state.block_correct = 0
-            st.session_state.block_wrong = 0
-
-        # LOG ATTEMPT
-        st.session_state.attempts.append({
-            "question_no": st.session_state.current_q,
-            "question_id": question["question_id"],
-            "difficulty": st.session_state.current_difficulty,
-            "correct": int(correct),
-            "timestamp": datetime.now().isoformat()
-        })
-
-        st.session_state.current_q += 1
-        st.session_state.current_question = None
-
-        if st.session_state.current_q > st.session_state.total_questions:
-            st.session_state.started = False
-            st.success("🎉 Test Completed")
-            st.write("### Final Result")
-            st.write(pd.DataFrame(st.session_state.attempts))
-        else:
-            st.rerun()
+        st.session_state.answers.append(choice)
+        st.session_state.q_index += 1
+        st.rerun()
