@@ -1,22 +1,23 @@
 import streamlit as st
 import pandas as pd
 import time
-import random
 
-# ================= CONFIG =================
+# ===================== CONFIG =====================
 st.set_page_config(page_title="Adaptive Online Test", layout="centered")
 
 DATA_PATH = "master_adaptive_exam_1485_FINAL.xlsx"
 LEVELS = ["Easy", "Medium", "Hard"]
 
-# ================= LOAD DATA =================
+# ===================== LOAD DATA =====================
 @st.cache_data
 def load_data():
-    return pd.read_excel(DATA_PATH)
+    df = pd.read_excel(DATA_PATH)
+    df = df.fillna("")        # 🔥 VERY IMPORTANT: remove NaN
+    return df
 
 df = load_data()
 
-# ================= SESSION STATE =================
+# ===================== SESSION STATE =====================
 def init_state():
     defaults = {
         "started": False,
@@ -35,7 +36,7 @@ def init_state():
 
 init_state()
 
-# ================= START SCREEN =================
+# ===================== START SCREEN =====================
 if not st.session_state.started:
     st.title("📝 Adaptive Online Test")
 
@@ -48,6 +49,10 @@ if not st.session_state.started:
             (df["difficulty"] == st.session_state.difficulty)
         ]
 
+        if len(pool) < q_count:
+            st.error("Not enough questions for this difficulty level.")
+            st.stop()
+
         st.session_state.questions = pool.sample(q_count).reset_index(drop=True)
         st.session_state.started = True
         st.session_state.q_index = 0
@@ -59,7 +64,7 @@ if not st.session_state.started:
 
         st.rerun()
 
-# ================= TEST SCREEN =================
+# ===================== TEST SCREEN =====================
 else:
     q_no = st.session_state.q_index
     questions = st.session_state.questions
@@ -84,12 +89,19 @@ else:
     st.subheader(f"Question {q_no + 1}")
     st.write(q["question_text"])
 
+    # ===================== SAFE OPTIONS =====================
     options = {
-        "A": q["option_a"],
-        "B": q["option_b"],
-        "C": q["option_c"],
-        "D": q["option_d"],
+        "A": q["option_a"] if q["option_a"] != "" else "Option not available",
+        "B": q["option_b"] if q["option_b"] != "" else "Option not available",
+        "C": q["option_c"] if q["option_c"] != "" else "Option not available",
+        "D": q["option_d"] if q["option_d"] != "" else "Option not available",
     }
+
+    # If all options missing, skip question safely
+    if all(v == "Option not available" for v in options.values()):
+        st.warning("⚠️ Options missing for this question. Skipping.")
+        st.session_state.q_index += 1
+        st.rerun()
 
     radio_key = f"q_{q_no}"
 
@@ -97,7 +109,7 @@ else:
         "Choose one option:",
         list(options.keys()),
         format_func=lambda x: f"{x}. {options[x]}",
-        index=None,
+        index=None,              # 🔥 prevents auto-selection
         key=radio_key
     )
 
@@ -108,18 +120,21 @@ else:
 
         correct = q["correct_option"]
 
-        # ===== CHECK ANSWER =====
+        # ===================== CHECK ANSWER =====================
         if choice == correct:
             st.success("✅ Correct!")
             st.session_state.score += 1
             st.session_state.correct_streak += 1
             st.session_state.wrong_streak = 0
         else:
-            st.error(f"❌ Wrong! Correct answer: {correct}")
+            if correct in ["A", "B", "C", "D"]:
+                st.error(f"❌ Wrong! Correct answer: {correct}")
+            else:
+                st.error("❌ Wrong!")
             st.session_state.wrong_streak += 1
             st.session_state.correct_streak = 0
 
-        # ===== ADAPTIVE LOGIC =====
+        # ===================== ADAPTIVE LOGIC =====================
         idx = LEVELS.index(st.session_state.difficulty)
 
         if st.session_state.correct_streak == 3 and idx < 2:
@@ -132,7 +147,7 @@ else:
             st.session_state.wrong_streak = 0
             st.info(f"⬇ Difficulty decreased to {st.session_state.difficulty}")
 
-        # ===== NEXT QUESTION =====
+        # ===================== NEXT QUESTION =====================
         st.session_state.q_index += 1
         del st.session_state[radio_key]
         st.rerun()
