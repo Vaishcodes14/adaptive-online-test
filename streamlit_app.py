@@ -1,6 +1,11 @@
 import streamlit as st
 import pandas as pd
 import time
+import os
+import streamlit as st
+
+st.write("📁 FILES STREAMLIT CAN SEE:")
+st.write(os.listdir("."))
 
 # ===================== CONFIG =====================
 st.set_page_config(page_title="Adaptive Online Test", layout="centered")
