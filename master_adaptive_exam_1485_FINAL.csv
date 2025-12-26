@@ -1,0 +1,1486 @@
+question_id,subject,concept,difficulty,question_text,option_a,option_b,option_c,option_d,correct_option
+P1,Aptitude,Percentage,Easy,,127,141,116,113,C
+P2,Aptitude,Percentage,Easy,,29,49,36,26,A
+P3,Aptitude,Percentage,Easy,,79,60,43,49,D
+P4,Aptitude,Percentage,Easy,,136,142,120,121,D
+P5,Aptitude,Percentage,Easy,,21,48,29,37,C
+P6,Aptitude,Percentage,Easy,,38,39,52,69,B
+P7,Aptitude,Percentage,Easy,,134,141,170,150,B
+P8,Aptitude,Percentage,Easy,,102,119,96,108,A
+P9,Aptitude,Percentage,Easy,,122,111,116,141,C
+P10,Aptitude,Percentage,Easy,,44,29,31,47,C
+P11,Aptitude,Percentage,Easy,,63,86,66,71,C
+P12,Aptitude,Percentage,Easy,,36,45,49,62,B
+P13,Aptitude,Percentage,Easy,,60,69,52,80,A
+P14,Aptitude,Percentage,Easy,,100,71,78,86,C
+P15,Aptitude,Percentage,Easy,,135,139,144,160,B
+P16,Aptitude,Percentage,Easy,,29,30,57,35,B
+P17,Aptitude,Percentage,Easy,,94,65,61,77,B
+P18,Aptitude,Percentage,Easy,,97,123,103,87,A
+P19,Aptitude,Percentage,Easy,,23,51,37,22,A
+P20,Aptitude,Percentage,Easy,,40,54,31,24,C
+P21,Aptitude,Percentage,Medium,,141,122,120,116,C
+P22,Aptitude,Percentage,Medium,,32,44,30,57,A
+P23,Aptitude,Percentage,Medium,,143,140,152,161,A
+P24,Aptitude,Percentage,Medium,,140,144,158,137,A
+P25,Aptitude,Percentage,Medium,,101,102,116,132,B
+P26,Aptitude,Percentage,Medium,,26,40,45,24,A
+P27,Aptitude,Percentage,Medium,,77,85,69,98,A
+P28,Aptitude,Percentage,Medium,,63,93,78,55,A
+P29,Aptitude,Percentage,Medium,,18,28,55,36,B
+P30,Aptitude,Percentage,Medium,,39,20,52,29,D
+P31,Aptitude,Percentage,Medium,,74,67,95,66,B
+P32,Aptitude,Percentage,Medium,,35,62,32,37,A
+P33,Aptitude,Percentage,Medium,,122,90,108,99,D
+P34,Aptitude,Percentage,Medium,,89,75,110,80,D
+P35,Aptitude,Percentage,Medium,,133,102,113,110,D
+P36,Aptitude,Percentage,Medium,,122,129,120,144,A
+P37,Aptitude,Percentage,Medium,,118,102,113,98,B
+P38,Aptitude,Percentage,Medium,,107,115,139,112,D
+P39,Aptitude,Percentage,Medium,,45,64,41,50,A
+P40,Aptitude,Percentage,Medium,,45,16,24,35,C
+P41,Aptitude,Percentage,Hard,,91,87,106,116,A
+P42,Aptitude,Percentage,Hard,,97,116,131,106,D
+P43,Aptitude,Percentage,Hard,,107,112,125,136,B
+P44,Aptitude,Percentage,Hard,,149,137,138,164,C
+P45,Aptitude,Percentage,Hard,,75,99,71,88,A
+P46,Aptitude,Percentage,Hard,,62,67,88,80,B
+P47,Aptitude,Percentage,Hard,,167,144,145,149,C
+P48,Aptitude,Percentage,Hard,,113,89,99,80,B
+P49,Aptitude,Percentage,Hard,,123,141,112,104,C
+P50,Aptitude,Percentage,Hard,,28,37,15,20,D
+P51,Aptitude,Percentage,Hard,,78,67,88,66,B
+P52,Aptitude,Percentage,Hard,,53,49,44,74,B
+P53,Aptitude,Percentage,Hard,,122,130,145,126,D
+P54,Aptitude,Percentage,Hard,,50,31,60,37,D
+P55,Aptitude,Percentage,Hard,,27,46,23,34,A
+R1,Aptitude,Ratio & Proportion,Easy,,119,93,101,91,B
+R2,Aptitude,Ratio & Proportion,Easy,,86,70,65,82,B
+R3,Aptitude,Ratio & Proportion,Easy,,110,104,120,130,A
+R4,Aptitude,Ratio & Proportion,Easy,,43,40,34,62,B
+R5,Aptitude,Ratio & Proportion,Easy,,116,142,125,113,A
+R6,Aptitude,Ratio & Proportion,Easy,,134,155,144,162,C
+R7,Aptitude,Ratio & Proportion,Easy,,78,108,81,77,A
+R8,Aptitude,Ratio & Proportion,Easy,,123,98,84,94,D
+R9,Aptitude,Ratio & Proportion,Easy,,163,137,127,147,B
+R10,Aptitude,Ratio & Proportion,Easy,,162,140,136,150,B
+R11,Aptitude,Ratio & Proportion,Easy,,63,78,72,102,C
+R12,Aptitude,Ratio & Proportion,Easy,,93,90,99,113,A
+R13,Aptitude,Ratio & Proportion,Easy,,41,71,46,54,C
+R14,Aptitude,Ratio & Proportion,Easy,,113,100,125,101,D
+R15,Aptitude,Ratio & Proportion,Easy,,13,50,21,29,C
+R16,Aptitude,Ratio & Proportion,Easy,,107,95,83,75,C
+R17,Aptitude,Ratio & Proportion,Easy,,161,130,138,145,C
+R18,Aptitude,Ratio & Proportion,Easy,,57,76,61,87,C
+R19,Aptitude,Ratio & Proportion,Easy,,66,76,92,68,D
+R20,Aptitude,Ratio & Proportion,Easy,,120,139,129,145,C
+R21,Aptitude,Ratio & Proportion,Medium,,46,64,44,58,A
+R22,Aptitude,Ratio & Proportion,Medium,,91,114,86,79,C
+R23,Aptitude,Ratio & Proportion,Medium,,53,64,55,72,C
+R24,Aptitude,Ratio & Proportion,Medium,,133,112,104,97,C
+R25,Aptitude,Ratio & Proportion,Medium,,38,45,61,35,A
+R26,Aptitude,Ratio & Proportion,Medium,,157,140,155,130,B
+R27,Aptitude,Ratio & Proportion,Medium,,35,27,20,55,B
+R28,Aptitude,Ratio & Proportion,Medium,,100,103,95,121,A
+R29,Aptitude,Ratio & Proportion,Medium,,37,53,28,50,A
+R30,Aptitude,Ratio & Proportion,Medium,,93,126,108,98,D
+R31,Aptitude,Ratio & Proportion,Medium,,174,149,151,141,B
+R32,Aptitude,Ratio & Proportion,Medium,,114,87,91,96,C
+R33,Aptitude,Ratio & Proportion,Medium,,61,70,53,47,C
+R34,Aptitude,Ratio & Proportion,Medium,,81,104,80,96,A
+R35,Aptitude,Ratio & Proportion,Medium,,149,118,122,125,C
+R36,Aptitude,Ratio & Proportion,Medium,,33,55,38,35,D
+R37,Aptitude,Ratio & Proportion,Medium,,42,65,52,43,D
+R38,Aptitude,Ratio & Proportion,Medium,,127,94,103,116,C
+R39,Aptitude,Ratio & Proportion,Medium,,31,61,41,39,D
+R40,Aptitude,Ratio & Proportion,Medium,,69,39,54,40,D
+R41,Aptitude,Ratio & Proportion,Hard,,83,88,101,81,A
+R42,Aptitude,Ratio & Proportion,Hard,,58,33,22,28,D
+R43,Aptitude,Ratio & Proportion,Hard,,104,130,120,107,D
+R44,Aptitude,Ratio & Proportion,Hard,,146,170,161,145,A
+R45,Aptitude,Ratio & Proportion,Hard,,35,42,18,21,D
+R46,Aptitude,Ratio & Proportion,Hard,,57,49,70,44,B
+R47,Aptitude,Ratio & Proportion,Hard,,23,30,40,46,B
+R48,Aptitude,Ratio & Proportion,Hard,,51,54,56,84,B
+R49,Aptitude,Ratio & Proportion,Hard,,152,171,148,145,C
+R50,Aptitude,Ratio & Proportion,Hard,,69,50,58,87,C
+R51,Aptitude,Ratio & Proportion,Hard,,29,52,25,40,A
+R52,Aptitude,Ratio & Proportion,Hard,,78,71,64,96,B
+R53,Aptitude,Ratio & Proportion,Hard,,162,139,146,138,B
+R54,Aptitude,Ratio & Proportion,Hard,,35,38,64,48,B
+R55,Aptitude,Ratio & Proportion,Hard,,140,133,126,152,B
+AVG001,Aptitude,Averages,Easy,The average of 5 numbers is 18. What is their sum?,101,114,86,76,C
+AVG002,Aptitude,Averages,Easy,Find the average of the first 10 natural numbers.,57,62,49,85,A
+AVG003,Aptitude,Averages,Easy,The average age of 4 students is 15 years. What is the total of their ages?,101,131,111,126,C
+AVG004,Aptitude,Averages,Easy,"The average of 6 numbers is 12. If one number is removed, the average becomes 10. Find the removed number.",143,163,147,137,A
+AVG005,Aptitude,Averages,Easy,"Find the average of numbers: 8, 12, 16, 20.",118,137,145,125,D
+AVG006,Aptitude,Averages,Easy,The average marks of a student in 5 subjects is 64. What are his total marks?,40,63,30,35,D
+AVG007,Aptitude,Averages,Easy,"The average of two numbers is 25. If one number is 30, find the other.",82,92,102,81,A
+AVG008,Aptitude,Averages,Easy,The average of 7 consecutive integers is 20. Find the smallest integer.,52,26,42,34,D
+AVG009,Aptitude,Averages,Easy,"The average of 10 numbers is 5. If each number is increased by 2, what is the new average?",44,38,72,42,D
+AVG010,Aptitude,Averages,Easy,Find the average of the first 20 even numbers.,135,155,145,139,D
+AVG011,Aptitude,Averages,Easy,The average age of a family of 5 members is 24 years. What is the total age of the family?,133,139,167,145,B
+AVG012,Aptitude,Averages,Easy,"The average of 4 numbers is 14. If three numbers are 10, 12 and 18, find the fourth number.",40,33,45,67,A
+AVG013,Aptitude,Averages,Easy,The average weight of 6 persons is 55 kg. What is their total weight?,137,122,147,126,D
+AVG014,Aptitude,Averages,Easy,Find the average of numbers from 1 to 9.,88,114,95,87,A
+AVG015,Aptitude,Averages,Easy,The average of 3 numbers is 21. What is their sum?,145,151,132,125,C
+AVG016,Aptitude,Averages,Easy,The average marks in a test of 8 students is 50. What is the total marks?,40,37,59,48,A
+AVG017,Aptitude,Averages,Easy,The average of 15 numbers is 30. What is their sum?,111,92,117,99,D
+AVG018,Aptitude,Averages,Easy,The average age of 10 students is 16 years. What is the total age?,68,76,72,101,C
+AVG019,Aptitude,Averages,Easy,Find the average of the first 5 multiples of 6.,140,123,125,144,C
+AVG020,Aptitude,Averages,Easy,"The average of 2 numbers is 18. If one number is 10, find the other.",70,44,35,47,B
+AVG021,Aptitude,Averages,Medium,"The average of 8 numbers is 15. If two numbers 20 and 30 are added, find the new average.",120,144,134,110,A
+AVG022,Aptitude,Averages,Medium,"The average age of 10 students is 15 years. If one student aged 25 leaves, what is the new average age?",129,122,139,114,B
+AVG023,Aptitude,Averages,Medium,"The average of 5 numbers is 20. If one number is 30, what is the average of the remaining numbers?",132,163,145,136,D
+AVG024,Aptitude,Averages,Medium,"The average of 7 numbers is 21. If one number is excluded, the average becomes 20. Find the excluded number.",96,118,114,101,D
+AVG025,Aptitude,Averages,Medium,"The average of 9 numbers is 18. If one number is replaced by 27, the average increases by 1. Find the original number.",76,66,52,57,D
+AVG026,Aptitude,Averages,Medium,"The average weight of 8 boys is 45 kg. If one boy weighing 50 kg joins, what is the new average?",86,95,69,77,D
+AVG027,Aptitude,Averages,Medium,"The average age of a class of 30 students is 14 years. If the teacher's age is included, the average becomes 15. Find the teacher's age.",139,149,128,132,D
+AVG028,Aptitude,Averages,Medium,"The average of 12 numbers is 25. If two numbers 20 and 30 are removed, find the new average.",120,110,97,89,C
+AVG029,Aptitude,Averages,Medium,"The average speed of a train for a journey is 60 km/h. If it takes 2 hours, find the distance travelled.",157,169,148,141,C
+AVG030,Aptitude,Averages,Medium,The average of 4 consecutive even numbers is 18. Find the numbers.,95,99,97,117,C
+AVG031,Aptitude,Averages,Medium,"The average of 10 numbers is 50. If each number is increased by 5, what is the new average?",64,33,44,40,D
+AVG032,Aptitude,Averages,Medium,"The average marks of 6 students is 70. If one student scores 90, find the average of remaining students.",123,124,136,151,B
+AVG033,Aptitude,Averages,Medium,"The average of 3 numbers is 15. If two numbers are 10 and 20, find the third.",33,31,57,38,A
+AVG034,Aptitude,Averages,Medium,"The average of 11 numbers is 20. If the first and last numbers are 10 and 30, find the average of the remaining numbers.",79,94,100,76,A
+AVG035,Aptitude,Averages,Medium,"The average age of 5 persons is 30 years. If one person aged 40 replaces another aged 20, find the new average.",67,71,97,58,A
+AVG036,Aptitude,Averages,Medium,"The average of 7 numbers is 28. If one number is 21, find the average of the remaining numbers.",108,110,138,116,B
+AVG037,Aptitude,Averages,Medium,"The average salary of 20 employees is ₹5000. If one employee earns ₹7000, what is the average salary of the remaining employees?",59,48,86,57,D
+AVG038,Aptitude,Averages,Medium,The average of 6 consecutive odd numbers is 21. Find the numbers.,124,115,137,149,A
+AVG039,Aptitude,Averages,Medium,"The average of 9 numbers is 40. If two numbers 30 and 50 are excluded, find the new average.",78,50,64,40,B
+AVG040,Aptitude,Averages,Medium,"The average marks of a student in 4 subjects is 75. If his marks in 3 subjects are 70, 80 and 90, find the marks in the fourth subject.",134,98,108,115,C
+AVG041,Aptitude,Averages,Hard,"The average age of 15 boys is 20 years. If the age of the teacher is included, the average becomes 21. Find the age of the teacher.",99,96,125,105,A
+AVG042,Aptitude,Averages,Hard,"The average of 10 numbers is 50. If one number is excluded, the average becomes 48. Find the excluded number.",43,56,61,39,A
+AVG043,Aptitude,Averages,Hard,"The average marks of a class of 40 students is 60. If the average marks of 15 students is 70, find the average marks of the remaining students.",100,102,104,128,B
+AVG044,Aptitude,Averages,Hard,"The average of 7 numbers is 30. If the average of the first four numbers is 28 and the average of the last four numbers is 32, find the fourth number.",93,97,85,123,A
+AVG045,Aptitude,Averages,Hard,"The average of 20 numbers is 25. If the average of first 10 numbers is 20, find the average of the remaining numbers.",130,148,127,135,A
+AVG046,Aptitude,Averages,Hard,"The average age of a group of 12 people is 30 years. If 3 people aged 40, 45 and 50 join, find the new average age.",37,40,67,50,B
+AVG047,Aptitude,Averages,Hard,"The average of 5 numbers is 18. If three numbers are 10, 12 and 14, find the average of the remaining numbers.",95,89,119,102,A
+AVG048,Aptitude,Averages,Hard,"The average of 8 numbers is 35. If one number is 55, what is the average of the remaining numbers?",71,53,43,59,B
+AVG049,Aptitude,Averages,Hard,"The average marks of 25 students is 68. If the highest and lowest marks are excluded, the average becomes 70. Find the sum of highest and lowest marks.",90,78,69,108,B
+AVG050,Aptitude,Averages,Hard,"The average of 6 numbers is 20. If the average of first three numbers is 15 and the average of last three numbers is 25, find the difference between the sums.",147,137,165,143,D
+AVG051,Aptitude,Averages,Hard,"The average of 10 observations is 30. If 3 observations are replaced by 20, 25 and 35, the average remains the same. Find the original average of these 3 observations.",164,149,140,172,B
+AVG052,Aptitude,Averages,Hard,"The average weight of 30 students is 50 kg. If the average weight of 10 students is 60 kg, find the average weight of the remaining students.",35,57,44,28,A
+AVG053,Aptitude,Averages,Hard,"The average of 12 numbers is 40. If one number is added, the average becomes 42. Find the added number.",61,78,52,54,D
+AVG054,Aptitude,Averages,Hard,"The average age of 8 people is 25 years. If the average age of 3 people is 30 years, find the average age of the remaining people.",136,119,130,110,B
+AVG055,Aptitude,Averages,Hard,"The average of 9 numbers is 27. If the average of first 5 numbers is 25 and the average of last 5 numbers is 29, find the fifth number.",160,143,138,149,B
+TW001,Aptitude,Time & Work,Easy,A can do a piece of work in 10 days. How much work can A do in one day?,137,140,154,130,A
+TW002,Aptitude,Time & Work,Easy,B can complete a work in 5 days. In how many days will B complete half the work?,53,67,59,75,C
+TW003,Aptitude,Time & Work,Easy,A work is completed in 8 days. What part of the work is done in one day?,53,73,45,47,D
+TW004,Aptitude,Time & Work,Easy,A can do a work in 20 days. How much work does A do in 5 days?,114,99,80,88,D
+TW005,Aptitude,Time & Work,Easy,B completes a work in 4 days. What fraction of work is done in 1 day?,92,64,71,66,D
+TW006,Aptitude,Time & Work,Easy,A can finish a job in 6 days. How many days will he take to finish double the work?,127,120,100,109,D
+TW007,Aptitude,Time & Work,Easy,"If a work is done in 12 days, what is the daily work rate?",169,133,140,143,C
+TW008,Aptitude,Time & Work,Easy,A completes a work in 15 days. How many days will he take to complete one-third of the work?,90,112,100,88,A
+TW009,Aptitude,Time & Work,Easy,B can do a job in 9 days. What part of the job is done in one day?,66,72,96,87,B
+TW010,Aptitude,Time & Work,Easy,"If a work is completed in 7 days, what fraction is done in 2 days?",68,36,55,43,D
+TW011,Aptitude,Time & Work,Easy,A finishes a work in 25 days. How much work does he finish in 1 day?,109,78,91,80,D
+TW012,Aptitude,Time & Work,Easy,B completes a work in 10 days. How many days are required to complete one-fifth of the work?,158,136,133,145,B
+TW013,Aptitude,Time & Work,Easy,A can do a work in 30 days. What part of the work is done in 3 days?,53,58,51,70,A
+TW014,Aptitude,Time & Work,Easy,"If one day’s work is 1/16, in how many days will the work be completed?",33,42,70,52,B
+TW015,Aptitude,Time & Work,Easy,A completes a job in 18 days. How many days will he take to complete half the work?,84,63,59,54,C
+TW016,Aptitude,Time & Work,Easy,B completes a work in 14 days. What is the work done in one day?,129,116,143,114,B
+TW017,Aptitude,Time & Work,Easy,A can complete a task in 40 days. How much work is done in 4 days?,81,49,55,64,C
+TW018,Aptitude,Time & Work,Easy,"If a work takes 5 days to complete, what fraction is done per day?",133,147,127,152,A
+TW019,Aptitude,Time & Work,Easy,A completes a job in 24 days. How much work is done in 6 days?,76,83,106,90,B
+TW020,Aptitude,Time & Work,Easy,"If one day’s work is 1/20, how many days will the work take?",56,65,55,81,A
+TW021,Aptitude,Time & Work,Medium,A can do a work in 10 days and B in 15 days. In how many days can they complete the work together?,89,83,68,62,C
+TW022,Aptitude,Time & Work,Medium,A can do a job in 12 days and B in 18 days. How long will they take together?,73,48,55,68,C
+TW023,Aptitude,Time & Work,Medium,"A alone can do a work in 20 days. With B’s help, it takes 12 days. In how many days can B alone do the work?",38,28,49,67,A
+TW024,Aptitude,Time & Work,Medium,"A and B together can do a work in 6 days. If A alone can do it in 10 days, find B’s time.",51,13,26,22,D
+TW025,Aptitude,Time & Work,Medium,A can complete a work in 16 days and B in 24 days. How many days will they take together?,125,101,111,99,B
+TW026,Aptitude,Time & Work,Medium,A and B together can do a work in 8 days. A alone can do it in 12 days. In how many days can B do it alone?,114,111,132,105,B
+TW027,Aptitude,Time & Work,Medium,A can do a work in 15 days and B in 20 days. How much work do they do together in one day?,130,118,114,109,C
+TW028,Aptitude,Time & Work,Medium,A and B can together do a work in 4 days. B alone can do it in 12 days. Find A’s time.,124,130,108,113,D
+TW029,Aptitude,Time & Work,Medium,A can do a job in 25 days and B in 50 days. How long will they take together?,88,117,103,78,A
+TW030,Aptitude,Time & Work,Medium,"A alone can do a work in 30 days. With B, it takes 20 days. Find B’s time.",25,22,18,40,B
+TW031,Aptitude,Time & Work,Medium,"A and B together can do a work in 5 days. If A alone does it in 15 days, find B’s time.",71,78,67,100,A
+TW032,Aptitude,Time & Work,Medium,A can do a job in 18 days and B in 36 days. How many days will they take together?,12,26,48,20,D
+TW033,Aptitude,Time & Work,Medium,"A and B together can do a work in 10 days. If B alone can do it in 20 days, find A’s time.",92,87,119,105,A
+TW034,Aptitude,Time & Work,Medium,"A alone can complete a work in 40 days. With B, it takes 24 days. Find B’s time.",131,134,158,137,B
+TW035,Aptitude,Time & Work,Medium,A can do a job in 8 days and B in 16 days. How long will they take together?,99,104,102,129,C
+TW036,Aptitude,Time & Work,Medium,"A and B together can do a work in 3 days. If A alone can do it in 6 days, find B’s time.",137,131,154,144,A
+TW037,Aptitude,Time & Work,Medium,A can do a job in 12 days and B in 24 days. How many days will they take together?,140,125,111,101,C
+TW038,Aptitude,Time & Work,Medium,"A alone can do a work in 45 days. With B, it takes 30 days. Find B’s time.",108,101,106,131,C
+TW039,Aptitude,Time & Work,Medium,"A and B together can do a work in 7 days. If A alone can do it in 14 days, find B’s time.",149,157,142,167,A
+TW040,Aptitude,Time & Work,Medium,A can do a job in 9 days and B in 18 days. How long will they take together?,92,95,70,79,D
+TW041,Aptitude,Time & Work,Hard,"A can do a work in 20 days, B in 30 days, and C in 60 days. In how many days will they complete the work together?",113,109,121,137,A
+TW042,Aptitude,Time & Work,Hard,A and B together can do a work in 12 days. B and C together can do it in 15 days. A and C together can do it in 20 days. In how many days can A alone do the work?,147,164,143,142,C
+TW043,Aptitude,Time & Work,Hard,"A can do a work in 15 days, B in 20 days. After working together for 5 days, A leaves. How many more days will B take to finish the work?",102,123,106,119,C
+TW044,Aptitude,Time & Work,Hard,"A can do a work in 12 days and B in 18 days. They work together for 4 days, then B leaves. How many days will A take to finish the remaining work?",165,141,144,136,B
+TW045,Aptitude,Time & Work,Hard,"A and B together can do a work in 10 days. After working together for 3 days, B leaves. If A alone can finish the remaining work in 7 days, find B’s time.",139,146,141,165,C
+TW046,Aptitude,Time & Work,Hard,"A can do a work in 24 days and B in 36 days. They work together for 6 days, then A leaves. How long will B take to finish the remaining work?",33,42,65,57,B
+TW047,Aptitude,Time & Work,Hard,"A and B together can do a work in 8 days. A alone can do it in 12 days. After working together for 2 days, A leaves. How long will B take to finish the rest?",78,104,94,87,D
+TW048,Aptitude,Time & Work,Hard,"A can do a job in 10 days and B in 15 days. They work together for 4 days, then A leaves. How many days will B take to finish the remaining work?",104,77,70,81,B
+TW049,Aptitude,Time & Work,Hard,"A and B together can do a work in 6 days. B alone can do it in 12 days. After working together for 2 days, find how long A will take to finish the remaining work alone.",46,58,32,39,D
+TW050,Aptitude,Time & Work,Hard,A can do a work in 18 days and B in 24 days. They work together for 6 days. Find the remaining work and time taken by B to finish it.,99,127,120,106,D
+TW051,Aptitude,Time & Work,Hard,"A can do a job in 16 days and B in 32 days. After working together for 4 days, how many days will A take to complete the remaining work?",85,61,59,73,B
+TW052,Aptitude,Time & Work,Hard,"A, B, and C together can do a work in 10 days. A alone can do it in 30 days and B alone in 60 days. In how many days can C alone do it?",123,107,108,131,C
+TW053,Aptitude,Time & Work,Hard,"A and B together can do a work in 5 days. A alone can do it in 10 days. After working together for 2 days, find the time taken by B to finish the work alone.",81,70,76,100,C
+TW054,Aptitude,Time & Work,Hard,A can do a work in 14 days and B in 21 days. They work together for 7 days. How many days will B take to finish the remaining work?,118,103,101,124,B
+TW055,Aptitude,Time & Work,Hard,"A and B together can do a work in 9 days. A alone can do it in 18 days. After working together for 3 days, find the remaining time for B.",82,72,98,73,D
+TSD001,Aptitude,Time Speed Distance,Easy,A car travels 60 km in 1 hour. What is its speed?,164,149,134,141,D
+TSD002,Aptitude,Time Speed Distance,Easy,A train covers 120 km in 2 hours. Find its speed.,137,162,136,144,A
+TSD003,Aptitude,Time Speed Distance,Easy,"If a person walks at 5 km/h, how much distance will he cover in 3 hours?",87,103,79,97,A
+TSD004,Aptitude,Time Speed Distance,Easy,A cyclist travels 30 km in 2 hours. Find his speed.,93,96,114,89,A
+TSD005,Aptitude,Time Speed Distance,Easy,A bus covers 180 km in 3 hours. What is its speed?,84,109,100,89,D
+TSD006,Aptitude,Time Speed Distance,Easy,"If speed is 10 km/h, how much distance is covered in 4 hours?",62,58,51,82,B
+TSD007,Aptitude,Time Speed Distance,Easy,A train travels 90 km in 1.5 hours. Find its speed.,139,163,142,146,C
+TSD008,Aptitude,Time Speed Distance,Easy,A man covers 20 km in 4 hours. What is his speed?,58,47,50,80,C
+TSD009,Aptitude,Time Speed Distance,Easy,A car travels at 50 km/h. How much distance will it cover in 2 hours?,114,89,103,91,D
+TSD010,Aptitude,Time Speed Distance,Easy,"If a person walks 12 km in 3 hours, find his speed.",123,140,133,155,C
+TSD011,Aptitude,Time Speed Distance,Easy,A bike travels 45 km in 3 hours. Find its speed.,137,118,111,106,C
+TSD012,Aptitude,Time Speed Distance,Easy,A train covers 150 km in 5 hours. What is its speed?,75,54,91,62,D
+TSD013,Aptitude,Time Speed Distance,Easy,"If speed is 8 km/h, find distance covered in 6 hours.",62,38,47,32,B
+TSD014,Aptitude,Time Speed Distance,Easy,A bus covers 210 km in 7 hours. Find speed.,144,117,121,125,C
+TSD015,Aptitude,Time Speed Distance,Easy,A man runs 100 m in 20 seconds. Find speed in m/s.,79,56,84,65,D
+TSD016,Aptitude,Time Speed Distance,Easy,A train travels 600 m in 30 seconds. Find speed in m/s.,89,92,112,99,B
+TSD017,Aptitude,Time Speed Distance,Easy,"If speed is 15 km/h, how long to cover 60 km?",135,144,157,165,B
+TSD018,Aptitude,Time Speed Distance,Easy,A car covers 240 km in 6 hours. Find speed.,172,157,149,144,C
+TSD019,Aptitude,Time Speed Distance,Easy,A person walks 18 km in 3 hours. What is speed?,15,33,25,44,C
+TSD020,Aptitude,Time Speed Distance,Easy,"If a cyclist travels 10 km in 40 minutes, find speed in km/h.",37,54,69,47,D
+TSD021,Aptitude,Time Speed Distance,Medium,A car covers a distance at 60 km/h in 4 hours. How long will it take at 80 km/h?,129,120,117,147,B
+TSD022,Aptitude,Time Speed Distance,Medium,A train travels at 72 km/h. How much distance will it cover in 2.5 hours?,52,30,22,14,C
+TSD023,Aptitude,Time Speed Distance,Medium,A man walks at 5 km/h and returns at 4 km/h. Find average speed.,102,111,134,116,B
+TSD024,Aptitude,Time Speed Distance,Medium,A cyclist covers a distance at 12 km/h in 2 hours. What speed is required to cover same distance in 1.5 hours?,67,78,87,60,A
+TSD025,Aptitude,Time Speed Distance,Medium,A train covers a distance in 10 hours at 50 km/h. What speed is required to cover same distance in 8 hours?,90,62,76,64,D
+TSD026,Aptitude,Time Speed Distance,Medium,A person travels half distance at 40 km/h and remaining at 60 km/h. Find average speed.,61,54,69,86,A
+TSD027,Aptitude,Time Speed Distance,Medium,A car increases speed from 40 km/h to 60 km/h. Find average speed.,57,45,64,43,B
+TSD028,Aptitude,Time Speed Distance,Medium,A train covers first half distance at 30 km/h and second half at 60 km/h. Find average speed.,84,98,73,67,C
+TSD029,Aptitude,Time Speed Distance,Medium,A man runs at 8 km/h for 2 hours and at 6 km/h for 1 hour. Find average speed.,54,59,50,70,A
+TSD030,Aptitude,Time Speed Distance,Medium,A car travels at 90 km/h for 2 hours. How long to cover same distance at 60 km/h?,107,129,96,104,D
+TSD031,Aptitude,Time Speed Distance,Medium,A train travels at 54 km/h. How much time to cover 162 km?,43,11,20,34,C
+TSD032,Aptitude,Time Speed Distance,Medium,A man covers a distance in 3 hours at 10 km/h and returns at 15 km/h. Find average speed.,70,43,55,41,B
+TSD033,Aptitude,Time Speed Distance,Medium,A cyclist covers 48 km at 12 km/h. How long will it take at 16 km/h?,141,132,159,143,A
+TSD034,Aptitude,Time Speed Distance,Medium,A train covers 300 km in 5 hours. What is its speed?,42,34,56,58,A
+TSD035,Aptitude,Time Speed Distance,Medium,"A person walks at 6 km/h and runs at 12 km/h. If he covers equal distances, find average speed.",141,125,129,145,C
+TSD036,Aptitude,Time Speed Distance,Medium,A bus travels at 40 km/h for 5 hours. How far does it go?,107,132,110,124,C
+TSD037,Aptitude,Time Speed Distance,Medium,A car covers 150 km at 50 km/h and next 150 km at 75 km/h. Find average speed.,163,141,145,153,C
+TSD038,Aptitude,Time Speed Distance,Medium,A train travels 120 km at 60 km/h and 180 km at 90 km/h. Find average speed.,98,82,76,85,B
+TSD039,Aptitude,Time Speed Distance,Medium,A man walks 4 km at 4 km/h and 6 km at 6 km/h. Find average speed.,113,104,95,96,D
+TSD040,Aptitude,Time Speed Distance,Medium,A cyclist travels at 18 km/h. How long will it take to cover 27 km?,144,159,128,136,D
+TSD041,Aptitude,Time Speed Distance,Hard,A train passes a pole in 10 seconds and a platform in 25 seconds. Find length of train.,117,150,130,125,D
+TSD042,Aptitude,Time Speed Distance,Hard,A train travelling at 54 km/h passes a man standing on platform in 12 seconds. Find length of train.,144,116,114,125,B
+TSD043,Aptitude,Time Speed Distance,Hard,Two trains of lengths 120 m and 180 m cross each other in 15 seconds. Find their relative speed.,44,36,34,59,B
+TSD044,Aptitude,Time Speed Distance,Hard,A train crosses a 300 m platform in 30 seconds at speed 54 km/h. Find length of train.,117,135,132,108,A
+TSD045,Aptitude,Time Speed Distance,Hard,A car travelling at 60 km/h crosses a bridge in 36 seconds. Find length of bridge if car is 4 m long.,29,52,34,22,A
+TSD046,Aptitude,Time Speed Distance,Hard,Two trains run in same direction at 54 km/h and 72 km/h. Find time to cross each other if lengths are 100 m each.,82,76,72,101,B
+TSD047,Aptitude,Time Speed Distance,Hard,A train crosses a man in 8 seconds and a platform in 20 seconds. Find length of platform.,162,137,132,131,C
+TSD048,Aptitude,Time Speed Distance,Hard,A train of length 150 m crosses a bridge of length 250 m in 40 seconds. Find speed of train.,79,119,93,89,D
+TSD049,Aptitude,Time Speed Distance,Hard,Two trains of equal length cross each other in 12 seconds at 72 km/h. Find length of each train.,106,107,133,111,B
+TSD050,Aptitude,Time Speed Distance,Hard,A train crosses a man walking at 6 km/h in same direction in 10 seconds. Find speed of train.,116,137,114,108,C
+TSD051,Aptitude,Time Speed Distance,Hard,A train running at 90 km/h crosses a platform in 20 seconds. Find length of platform if train is 200 m long.,55,83,48,62,A
+TSD052,Aptitude,Time Speed Distance,Hard,Two trains run in opposite directions at 36 km/h and 54 km/h. Find time to cross each other if lengths are 120 m and 180 m.,115,94,130,100,D
+TSD053,Aptitude,Time Speed Distance,Hard,"A train crosses a bridge in 30 seconds at speed 72 km/h. If bridge is 300 m long, find length of train.",48,69,54,80,C
+TSD054,Aptitude,Time Speed Distance,Hard,A car and a bike start at same point. Car is faster by 10 km/h. Find time to gain 50 km lead.,86,67,59,53,C
+TSD055,Aptitude,Time Speed Distance,Hard,A man rows upstream at 5 km/h and downstream at 9 km/h. Find speed of stream.,75,66,78,98,A
+PL001,Aptitude,Profit & Loss,Easy,A man buys an article for ₹200 and sells it for ₹240. Find the profit.,79,59,87,66,D
+PL002,Aptitude,Profit & Loss,Easy,"If cost price is ₹500 and selling price is ₹550, find the profit percent.",149,112,121,129,C
+PL003,Aptitude,Profit & Loss,Easy,"An article is sold at a loss of ₹50. If cost price is ₹450, find selling price.",127,117,99,109,D
+PL004,Aptitude,Profit & Loss,Easy,A shopkeeper gains ₹40 on selling an article for ₹240. Find the cost price.,142,144,146,172,B
+PL005,Aptitude,Profit & Loss,Easy,"If selling price is ₹300 and profit is ₹60, find cost price.",122,92,98,110,C
+PL006,Aptitude,Profit & Loss,Easy,An article is bought for ₹800 and sold for ₹720. Find loss.,120,111,140,109,B
+PL007,Aptitude,Profit & Loss,Easy,"If cost price is ₹1000 and loss percent is 10%, find selling price.",131,140,146,170,B
+PL008,Aptitude,Profit & Loss,Easy,A man sells an article at ₹450 gaining 12.5%. Find cost price.,143,127,157,136,D
+PL009,Aptitude,Profit & Loss,Easy,"If selling price is ₹660 and cost price is ₹600, find profit percent.",75,73,97,87,A
+PL010,Aptitude,Profit & Loss,Easy,An article bought for ₹250 is sold for ₹225. Find loss percent.,101,93,129,114,A
+PL011,Aptitude,Profit & Loss,Easy,A shopkeeper gains ₹20 on selling an article at ₹220. Find cost price.,125,116,108,102,C
+PL012,Aptitude,Profit & Loss,Easy,"If cost price is ₹400 and selling price is ₹500, find profit.",110,103,130,102,B
+PL013,Aptitude,Profit & Loss,Easy,"An article is sold at a loss of 20%. If cost price is ₹600, find selling price.",101,107,124,111,B
+PL014,Aptitude,Profit & Loss,Easy,"If selling price is ₹900 and profit percent is 20%, find cost price.",102,123,113,106,D
+PL015,Aptitude,Profit & Loss,Easy,A man buys an article for ₹150 and sells it for ₹180. Find profit percent.,143,167,133,151,A
+PL016,Aptitude,Profit & Loss,Easy,"If cost price is ₹700 and selling price is ₹630, find loss percent.",143,142,168,147,A
+PL017,Aptitude,Profit & Loss,Easy,An article is sold for ₹540 at a profit of 8%. Find cost price.,136,149,161,144,D
+PL018,Aptitude,Profit & Loss,Easy,"If cost price is ₹1200 and profit is ₹300, find selling price.",19,33,28,52,C
+PL019,Aptitude,Profit & Loss,Easy,A trader incurs a loss of ₹90 on selling an article for ₹810. Find cost price.,132,142,154,122,A
+PL020,Aptitude,Profit & Loss,Easy,"If selling price is ₹480 and loss percent is 20%, find cost price.",125,144,137,127,D
+PL021,Aptitude,Profit & Loss,Medium,"A shopkeeper sells two articles at ₹500 each, gaining 20% on one and losing 20% on the other. Find net gain or loss.",102,91,73,82,D
+PL022,Aptitude,Profit & Loss,Medium,"If an article is sold at 10% loss instead of 10% gain, the selling price decreases by ₹40. Find cost price.",106,88,79,85,D
+PL023,Aptitude,Profit & Loss,Medium,"A man sells an article at 25% profit. If he had bought it at 20% less, his profit would be ₹90 more. Find cost price.",142,122,126,117,B
+PL024,Aptitude,Profit & Loss,Medium,A trader marks his goods 25% above cost price and allows 10% discount. Find profit percent.,89,112,91,103,C
+PL025,Aptitude,Profit & Loss,Medium,"If cost price of 10 articles is equal to selling price of 8 articles, find profit percent.",87,117,105,94,D
+PL026,Aptitude,Profit & Loss,Medium,"A shopkeeper sells an article at 15% loss. If he had sold it for ₹90 more, he would have gained 15%. Find cost price.",56,48,68,77,A
+PL027,Aptitude,Profit & Loss,Medium,"A trader sells an article at a profit of 20%. If cost price had been ₹50 more, profit would be 10%. Find selling price.",133,156,142,137,D
+PL028,Aptitude,Profit & Loss,Medium,"An article is sold at 20% profit. If the selling price is increased by ₹100, profit becomes 30%. Find cost price.",67,87,60,57,C
+PL029,Aptitude,Profit & Loss,Medium,A trader gains 10% by selling an article for ₹550. Find cost price.,115,130,119,138,C
+PL030,Aptitude,Profit & Loss,Medium,"If selling price of an article is ₹720 after allowing 10% discount on marked price ₹800, find profit percent if cost price is ₹600.",43,29,21,49,B
+PL031,Aptitude,Profit & Loss,Medium,A man sells two articles at same price. One gives 20% profit and other 20% loss. Find net result.,66,42,35,51,B
+PL032,Aptitude,Profit & Loss,Medium,A shopkeeper gains 25% after allowing 10% discount. Find marked price if cost price is ₹400.,145,127,162,134,D
+PL033,Aptitude,Profit & Loss,Medium,An article is sold for ₹630 at a loss of 10%. Find cost price.,67,35,51,37,D
+PL034,Aptitude,Profit & Loss,Medium,A trader allows 20% discount on marked price and still gains 20%. Find marked price if cost price is ₹500.,168,138,132,153,B
+PL035,Aptitude,Profit & Loss,Medium,"If cost price increases by 25%, by what percent should selling price be increased to maintain same profit?",105,139,114,129,C
+PL036,Aptitude,Profit & Loss,Medium,"A man sells an article at 12% profit. If cost price was ₹75 less, profit would be 20%. Find selling price.",39,69,43,56,C
+PL037,Aptitude,Profit & Loss,Medium,A shopkeeper buys 20 articles for ₹400 and sells 18 articles for ₹450. Find profit percent.,79,104,85,96,C
+PL038,Aptitude,Profit & Loss,Medium,"An article is sold at a profit of 16⅔%. If cost price is ₹300, find selling price.",32,67,40,37,D
+PL039,Aptitude,Profit & Loss,Medium,A trader marks goods 40% above cost and gives 20% discount. Find profit percent.,141,134,123,121,C
+PL040,Aptitude,Profit & Loss,Medium,"If selling price is ₹900 after 10% discount on marked price ₹1000, find profit percent if cost price is ₹750.",35,57,45,29,A
+PL041,Aptitude,Profit & Loss,Hard,A dishonest shopkeeper uses 900 g weight for 1 kg and gives 10% discount. Find profit percent.,45,49,64,78,B
+PL042,Aptitude,Profit & Loss,Hard,A trader mixes two varieties of rice costing ₹30/kg and ₹45/kg in ratio 2:3 and sells mixture at ₹42/kg. Find profit percent.,164,128,136,148,C
+PL043,Aptitude,Profit & Loss,Hard,A shopkeeper marks goods 50% above cost and allows successive discounts of 10% and 20%. Find profit or loss percent.,41,49,39,68,A
+PL044,Aptitude,Profit & Loss,Hard,"If an article is sold at x% gain instead of y% gain, the selling price increases by ₹120. Find cost price.",102,63,87,73,D
+PL045,Aptitude,Profit & Loss,Hard,A man buys oranges at 4 for ₹20 and sells them at 5 for ₹30. Find gain or loss percent.,163,137,157,145,D
+PL046,Aptitude,Profit & Loss,Hard,"A trader sells an article at 15% profit. If he had sold it at 15% loss, the selling price would be ₹120 less. Find cost price.",127,147,139,119,A
+PL047,Aptitude,Profit & Loss,Hard,A shopkeeper cheats by using false weights and selling at marked price. Find overall gain percent.,113,126,130,111,A
+PL048,Aptitude,Profit & Loss,Hard,"A trader gains 20% by selling at ₹600. If cost price was ₹50 more, profit would be 10%. Find cost price.",64,36,32,40,B
+PL049,Aptitude,Profit & Loss,Hard,"An article is sold at 25% loss. To gain 25%, by what percent should selling price be increased?",62,68,96,79,B
+PL050,Aptitude,Profit & Loss,Hard,A dishonest dealer uses 800 g weight instead of 1 kg. Find gain percent.,46,60,56,77,C
+PL051,Aptitude,Profit & Loss,Hard,"A trader sells an article at 10% profit. If he had sold it at 20% profit, selling price would be ₹50 more. Find cost price.",77,105,89,72,A
+PL052,Aptitude,Profit & Loss,Hard,A shopkeeper gives successive discounts of 15% and 10% on marked price. Find equivalent discount percent.,72,57,42,39,C
+PL053,Aptitude,Profit & Loss,Hard,A trader mixes two items in ratio 3:5 costing ₹40/kg and ₹60/kg and sells at ₹55/kg. Find profit percent.,108,125,102,95,C
+PL054,Aptitude,Profit & Loss,Hard,"An article is sold at loss of 20%. If cost price is increased by 25%, find new profit or loss percent.",75,55,59,66,C
+PL055,Aptitude,Profit & Loss,Hard,A trader allows discount of 25% and still gains 20%. Find marked price if cost price is ₹800.,46,58,67,45,A
+CI001,Aptitude,Simple & Compound Interest,Easy,Find the simple interest on ₹1000 at 10% per annum for 2 years.,128,156,137,125,A
+CI002,Aptitude,Simple & Compound Interest,Easy,What is the simple interest on ₹500 at 8% per annum for 3 years?,20,23,53,28,B
+CI003,Aptitude,Simple & Compound Interest,Easy,Find the amount on ₹2000 at 5% simple interest for 4 years.,128,146,141,127,A
+CI004,Aptitude,Simple & Compound Interest,Easy,"If the simple interest on a sum for 2 years at 10% is ₹200, find the principal.",117,133,125,148,C
+CI005,Aptitude,Simple & Compound Interest,Easy,Find the simple interest on ₹1500 at 12% per annum for 1 year.,118,97,112,101,D
+CI006,Aptitude,Simple & Compound Interest,Easy,What will be the amount on ₹800 at 10% per annum simple interest for 5 years?,95,91,118,104,A
+CI007,Aptitude,Simple & Compound Interest,Easy,"If principal is ₹600 and rate is 5%, find simple interest for 4 years.",140,106,110,122,C
+CI008,Aptitude,Simple & Compound Interest,Easy,Find the simple interest on ₹3000 at 7% per annum for 2 years.,66,94,74,89,C
+CI009,Aptitude,Simple & Compound Interest,Easy,What is the simple interest on ₹2500 at 6% per annum for 3 years?,77,41,61,50,D
+CI010,Aptitude,Simple & Compound Interest,Easy,Find the amount on ₹1000 at 10% per annum simple interest for 3 years.,54,80,53,68,A
+CI011,Aptitude,Simple & Compound Interest,Easy,"If simple interest is ₹360 on a sum at 12% for 3 years, find the principal.",79,84,89,100,B
+CI012,Aptitude,Simple & Compound Interest,Easy,Find the simple interest on ₹2000 at 9% per annum for 2 years.,158,133,123,145,B
+CI013,Aptitude,Simple & Compound Interest,Easy,What will be the amount on ₹500 at 10% per annum simple interest for 2 years?,131,117,110,101,C
+CI014,Aptitude,Simple & Compound Interest,Easy,Find the simple interest on ₹1200 at 8% per annum for 5 years.,74,82,79,105,C
+CI015,Aptitude,Simple & Compound Interest,Easy,"If the rate of interest is 6% per annum, find simple interest on ₹1500 for 2 years.",151,127,124,141,B
+CI016,Aptitude,Simple & Compound Interest,Easy,Find the simple interest on ₹4000 at 5% per annum for 1 year.,16,20,47,34,B
+CI017,Aptitude,Simple & Compound Interest,Easy,What is the amount on ₹2000 at 10% per annum simple interest for 4 years?,78,83,90,105,B
+CI018,Aptitude,Simple & Compound Interest,Easy,"If principal is ₹800 and rate is 7%, find simple interest for 3 years.",127,137,133,153,C
+CI019,Aptitude,Simple & Compound Interest,Easy,Find the simple interest on ₹1000 at 12% per annum for 1 year.,145,167,137,155,A
+CI020,Aptitude,Simple & Compound Interest,Easy,What will be the amount on ₹600 at 5% per annum simple interest for 6 years?,90,111,98,116,C
+CI021,Aptitude,Simple & Compound Interest,Medium,Find the compound interest on ₹2000 at 10% per annum for 2 years.,134,107,104,111,B
+CI022,Aptitude,Simple & Compound Interest,Medium,What is the amount on ₹1500 at 8% compound interest for 3 years?,93,122,89,95,A
+CI023,Aptitude,Simple & Compound Interest,Medium,Find the compound interest on ₹1000 at 5% per annum for 2 years.,52,34,22,32,D
+CI024,Aptitude,Simple & Compound Interest,Medium,"If the compound interest on a sum for 2 years at 10% is ₹210, find the principal.",104,85,116,92,D
+CI025,Aptitude,Simple & Compound Interest,Medium,Find the amount on ₹3000 at 10% compound interest for 2 years.,112,146,126,119,D
+CI026,Aptitude,Simple & Compound Interest,Medium,What is the difference between simple interest and compound interest on ₹1000 at 10% for 2 years?,109,130,118,112,D
+CI027,Aptitude,Simple & Compound Interest,Medium,Find the compound interest on ₹2500 at 6% per annum for 3 years.,156,142,139,136,C
+CI028,Aptitude,Simple & Compound Interest,Medium,"If amount after 2 years at 10% compound interest is ₹1210, find the principal.",41,20,34,10,B
+CI029,Aptitude,Simple & Compound Interest,Medium,Find the compound interest on ₹5000 at 8% per annum for 2 years.,135,140,134,159,A
+CI030,Aptitude,Simple & Compound Interest,Medium,What will be the amount on ₹2000 at 5% compound interest for 3 years?,74,80,93,97,B
+CI031,Aptitude,Simple & Compound Interest,Medium,Find the compound interest on ₹1200 at 10% per annum for 2 years.,149,144,170,136,B
+CI032,Aptitude,Simple & Compound Interest,Medium,"If compound interest on a sum for 1 year at 10% is ₹100, find the principal.",39,40,42,59,B
+CI033,Aptitude,Simple & Compound Interest,Medium,Find the amount on ₹4000 at 5% compound interest for 2 years.,21,38,31,48,C
+CI034,Aptitude,Simple & Compound Interest,Medium,What is the compound interest on ₹3000 at 12% per annum for 2 years?,103,95,111,130,A
+CI035,Aptitude,Simple & Compound Interest,Medium,Find the difference between CI and SI on ₹2000 at 10% for 2 years.,162,180,150,146,C
+CI036,Aptitude,Simple & Compound Interest,Medium,"If the amount on ₹5000 after 2 years at 10% compound interest is known, find the principal.",25,26,56,31,B
+CI037,Aptitude,Simple & Compound Interest,Medium,Find the compound interest on ₹1500 at 4% per annum for 3 years.,132,153,138,162,C
+CI038,Aptitude,Simple & Compound Interest,Medium,What will be the amount on ₹1000 at 10% compound interest for 2 years?,125,148,127,134,C
+CI039,Aptitude,Simple & Compound Interest,Medium,Find the compound interest on ₹8000 at 6% per annum for 2 years.,122,141,138,124,D
+CI040,Aptitude,Simple & Compound Interest,Medium,"If amount is ₹1331 after 3 years at 10% compound interest, find the principal.",44,61,60,45,D
+CI041,Aptitude,Simple & Compound Interest,Hard,Find the compound interest on ₹5000 at 10% per annum compounded annually for 3 years.,91,98,93,116,C
+CI042,Aptitude,Simple & Compound Interest,Hard,What is the difference between compound interest and simple interest on ₹4000 at 10% for 3 years?,56,27,23,33,B
+CI043,Aptitude,Simple & Compound Interest,Hard,"If the compound interest on a sum for 2 years at 20% is ₹840, find the principal.",25,54,18,34,A
+CI044,Aptitude,Simple & Compound Interest,Hard,Find the time in which ₹8000 doubles at 10% compound interest per annum.,52,48,44,74,B
+CI045,Aptitude,Simple & Compound Interest,Hard,"If ₹5000 amounts to ₹7200 in 3 years at compound interest, find the rate of interest.",124,114,116,143,C
+CI046,Aptitude,Simple & Compound Interest,Hard,"Find the compound interest on ₹10000 at 10% per annum for 2 years, compounded half-yearly.",77,87,62,71,D
+CI047,Aptitude,Simple & Compound Interest,Hard,What is the present worth of ₹1331 due after 3 years at 10% compound interest?,140,150,133,167,A
+CI048,Aptitude,Simple & Compound Interest,Hard,Find the rate of interest if ₹4000 becomes ₹5324 in 3 years at compound interest.,95,83,88,110,C
+CI049,Aptitude,Simple & Compound Interest,Hard,Find the compound interest on ₹8000 at 5% per annum for 3 years.,92,90,108,104,A
+CI050,Aptitude,Simple & Compound Interest,Hard,"If the compound interest on a sum for 2 years is ₹410 at 10%, find the principal.",100,69,84,79,D
+CI051,Aptitude,Simple & Compound Interest,Hard,Find the compound interest on ₹2500 at 8% per annum for 3 years.,66,54,47,41,C
+CI052,Aptitude,Simple & Compound Interest,Hard,What sum amounts to ₹9261 in 3 years at 7% compound interest?,95,65,79,66,D
+CI053,Aptitude,Simple & Compound Interest,Hard,Find the difference between CI and SI on ₹5000 at 10% for 3 years.,80,49,58,64,C
+CI054,Aptitude,Simple & Compound Interest,Hard,Find the compound interest on ₹6000 at 12% per annum for 2 years.,51,48,63,79,A
+CI055,Aptitude,Simple & Compound Interest,Hard,"If the amount after 2 years at compound interest is ₹4840 at 10%, find the principal.",32,53,27,37,A
+MIX001,Aptitude,Mixtures & Alligation,Easy,In what ratio should water be mixed with milk costing ₹40 per litre to get a mixture worth ₹30 per litre?,161,147,149,179,C
+MIX002,Aptitude,Mixtures & Alligation,Easy,A mixture contains milk and water in the ratio 3:1. What fraction of the mixture is water?,120,90,100,94,D
+MIX003,Aptitude,Mixtures & Alligation,Easy,In what ratio must rice at ₹20/kg be mixed with rice at ₹30/kg so that the mixture costs ₹25/kg?,50,37,36,54,B
+MIX004,Aptitude,Mixtures & Alligation,Easy,A mixture of tea and sugar contains them in the ratio 4:1. Find the percentage of sugar in the mixture.,77,102,85,76,A
+MIX005,Aptitude,Mixtures & Alligation,Easy,How many litres of water should be added to 10 litres of milk to make the ratio 2:1?,108,137,116,105,A
+MIX006,Aptitude,Mixtures & Alligation,Easy,In what ratio should wheat costing ₹10/kg be mixed with wheat costing ₹20/kg to get a mixture worth ₹15/kg?,107,127,108,115,C
+MIX007,Aptitude,Mixtures & Alligation,Easy,A mixture of alcohol and water contains 20% alcohol. Find the ratio of alcohol to water.,99,110,89,84,C
+MIX008,Aptitude,Mixtures & Alligation,Easy,"A jar contains milk and water in the ratio 5:2. If the total mixture is 14 litres, find quantity of water.",88,101,79,71,C
+MIX009,Aptitude,Mixtures & Alligation,Easy,In what ratio must sugar costing ₹40/kg be mixed with sugar costing ₹60/kg to get mixture worth ₹50/kg?,37,61,64,46,D
+MIX010,Aptitude,Mixtures & Alligation,Easy,A mixture contains 60% water. What is the ratio of water to milk?,128,93,108,99,D
+MIX011,Aptitude,Mixtures & Alligation,Easy,In what ratio should pulses at ₹50/kg be mixed with pulses at ₹70/kg to get mixture worth ₹60/kg?,135,148,125,128,D
+MIX012,Aptitude,Mixtures & Alligation,Easy,A mixture of salt and sand contains them in the ratio 1:4. What fraction is salt?,80,72,94,107,A
+MIX013,Aptitude,Mixtures & Alligation,Easy,How many litres of water should be mixed with 8 litres of alcohol to make the mixture 25% alcohol?,101,88,80,117,B
+MIX014,Aptitude,Mixtures & Alligation,Easy,In what ratio should oil costing ₹100/litre be mixed with oil costing ₹120/litre to get mixture worth ₹110/litre?,55,72,79,61,D
+MIX015,Aptitude,Mixtures & Alligation,Easy,A mixture contains alcohol and water in the ratio 1:3. Find percentage of alcohol.,48,39,75,62,A
+MIX016,Aptitude,Mixtures & Alligation,Easy,In what ratio must tea at ₹200/kg be mixed with tea at ₹300/kg to get mixture worth ₹250/kg?,116,97,90,112,B
+MIX017,Aptitude,Mixtures & Alligation,Easy,A mixture contains 80% milk. Find ratio of milk to water.,74,83,102,76,D
+MIX018,Aptitude,Mixtures & Alligation,Easy,How many litres of water should be added to 12 litres of juice to make it 75% juice?,152,130,126,128,D
+MIX019,Aptitude,Mixtures & Alligation,Easy,In what ratio should rice at ₹24/kg be mixed with rice at ₹36/kg to get mixture worth ₹30/kg?,72,46,66,51,D
+MIX020,Aptitude,Mixtures & Alligation,Easy,A mixture contains water and wine in ratio 2:3. Find fraction of wine.,145,152,137,162,A
+MIX021,Aptitude,Mixtures & Alligation,Medium,A vessel contains 40 litres of milk. 8 litres are replaced by water. Find the ratio of milk to water.,111,81,84,78,B
+MIX022,Aptitude,Mixtures & Alligation,Medium,"In a mixture of 50 litres, milk and water are in ratio 7:3. How much milk must be added to make ratio 4:1?",96,120,101,112,C
+MIX023,Aptitude,Mixtures & Alligation,Medium,"A mixture of tea contains tea and sugar in ratio 5:2. If 14 kg of sugar is added, find new ratio.",157,135,124,129,D
+MIX024,Aptitude,Mixtures & Alligation,Medium,"A vessel contains milk and water in ratio 3:1. If 10 litres are drawn and replaced with water, find new ratio.",30,40,33,51,C
+MIX025,Aptitude,Mixtures & Alligation,Medium,In what ratio should two varieties of rice costing ₹20/kg and ₹32/kg be mixed to get mixture worth ₹26/kg?,135,152,140,127,A
+MIX026,Aptitude,Mixtures & Alligation,Medium,A mixture contains alcohol and water in ratio 2:5. How much water should be added to make ratio 1:4 if total is 21 litres?,154,141,136,128,C
+MIX027,Aptitude,Mixtures & Alligation,Medium,A jar contains 60 litres of milk. 12 litres are replaced by water. Find percentage of water.,96,125,92,110,A
+MIX028,Aptitude,Mixtures & Alligation,Medium,"In a mixture of 36 litres, milk and water are in ratio 5:1. How much water must be added to make ratio 2:1?",97,115,96,112,A
+MIX029,Aptitude,Mixtures & Alligation,Medium,A mixture contains tea and sugar in ratio 7:3. How much sugar must be added to make ratio 7:5?,38,35,25,54,B
+MIX030,Aptitude,Mixtures & Alligation,Medium,A vessel contains 80 litres of mixture. Milk and water are in ratio 3:5. How much milk must be added to make ratio 1:1?,70,62,93,82,A
+MIX031,Aptitude,Mixtures & Alligation,Medium,In what ratio should sugar at ₹30/kg be mixed with sugar at ₹45/kg to get mixture worth ₹40/kg?,82,55,57,62,C
+MIX032,Aptitude,Mixtures & Alligation,Medium,A mixture of alcohol and water contains 25% alcohol. How much water should be added to 20 litres to make alcohol 20%?,106,109,113,136,B
+MIX033,Aptitude,Mixtures & Alligation,Medium,A jar contains 50 litres of milk. Some milk is replaced by water making water 30%. Find quantity replaced.,26,45,49,30,D
+MIX034,Aptitude,Mixtures & Alligation,Medium,In what ratio should two varieties of wheat costing ₹18/kg and ₹24/kg be mixed to get mixture worth ₹21/kg?,99,75,80,77,D
+MIX035,Aptitude,Mixtures & Alligation,Medium,A mixture contains wine and water in ratio 4:1. How much water must be added to make ratio 2:1 if total is 25 litres?,171,146,142,151,B
+MIX036,Aptitude,Mixtures & Alligation,Medium,A vessel contains 100 litres of mixture of milk and water in ratio 1:4. How much milk should be added to make ratio 2:3?,81,88,85,101,C
+MIX037,Aptitude,Mixtures & Alligation,Medium,"In a mixture of tea and sugar, sugar is 20%. How much sugar should be added to 10 kg to make sugar 25%?",170,150,159,140,B
+MIX038,Aptitude,Mixtures & Alligation,Medium,A mixture of 48 litres contains milk and water in ratio 5:3. How much water should be added to make ratio 5:4?,51,77,67,58,D
+MIX039,Aptitude,Mixtures & Alligation,Medium,In what ratio should oil at ₹60/litre be mixed with oil at ₹90/litre to get mixture worth ₹75/litre?,63,40,31,42,B
+MIX040,Aptitude,Mixtures & Alligation,Medium,A mixture contains 40% alcohol. How much water should be added to 30 litres to make alcohol 30%?,41,37,59,30,B
+MIX041,Aptitude,Mixtures & Alligation,Hard,A vessel contains 100 litres of milk. 20 litres are replaced by water repeatedly twice. Find final quantity of milk.,46,50,69,63,B
+MIX042,Aptitude,Mixtures & Alligation,Hard,A mixture of alcohol and water contains 30% alcohol. How much water must be added to 40 litres to make alcohol 20%?,65,92,84,73,D
+MIX043,Aptitude,Mixtures & Alligation,Hard,A vessel contains 60 litres of milk. 15 litres are taken out and replaced by water repeatedly thrice. Find final ratio.,154,122,124,129,C
+MIX044,Aptitude,Mixtures & Alligation,Hard,"In a mixture of 90 litres, milk and water are in ratio 2:1. How much milk must be added to make ratio 5:2?",114,146,134,122,D
+MIX045,Aptitude,Mixtures & Alligation,Hard,A jar contains 72 litres of milk. Some milk is replaced by water so that water becomes 25%. Find amount replaced.,95,124,108,92,A
+MIX046,Aptitude,Mixtures & Alligation,Hard,A mixture of tea contains tea and sugar in ratio 8:3. How much sugar must be added to make ratio 8:5 if total is 55 kg?,72,100,67,84,A
+MIX047,Aptitude,Mixtures & Alligation,Hard,A vessel contains alcohol and water in ratio 5:3. How much water should be added to make alcohol 50% if total is 64 litres?,28,30,39,54,B
+MIX048,Aptitude,Mixtures & Alligation,Hard,"In a vessel of 80 litres, milk and water are in ratio 3:2. How much water must be removed to make ratio 5:3?",52,61,56,82,C
+MIX049,Aptitude,Mixtures & Alligation,Hard,"A mixture of two liquids in ratio 4:5 costs ₹81/litre. If cost of cheaper liquid is ₹72/litre, find cost of dearer liquid.",128,123,122,139,B
+MIX050,Aptitude,Mixtures & Alligation,Hard,A jar contains mixture of milk and water in ratio 7:1. How much water should be added to make ratio 3:1 if total is 64 litres?,50,56,80,40,A
+MIX051,Aptitude,Mixtures & Alligation,Hard,A mixture of alcohol and water costs ₹40/litre. Alcohol costs ₹60/litre. Find ratio of alcohol to water.,47,58,63,37,A
+MIX052,Aptitude,Mixtures & Alligation,Hard,A vessel contains 50 litres of milk. 10 litres are removed and replaced with water repeatedly twice. Find percentage of milk left.,33,59,56,41,D
+MIX053,Aptitude,Mixtures & Alligation,Hard,"A mixture of two liquids costs ₹84/litre mixed in ratio 2:5. If cost of dearer liquid is ₹90/litre, find cost of cheaper liquid.",25,45,26,39,C
+MIX054,Aptitude,Mixtures & Alligation,Hard,A vessel contains 90 litres of mixture of milk and water in ratio 4:5. How much milk should be added to make ratio 1:1?,101,80,76,70,C
+MIX055,Aptitude,Mixtures & Alligation,Hard,A jar contains mixture of alcohol and water in ratio 9:1. How much water must be added to make ratio 3:1 if total is 50 litres?,55,73,46,51,D
+NUM001,Aptitude,Number System,Easy,Find the sum of first 10 natural numbers.,63,87,57,67,A
+NUM002,Aptitude,Number System,Easy,Find the greatest two-digit number.,67,94,65,79,A
+NUM003,Aptitude,Number System,Easy,Find the smallest three-digit number.,104,80,72,82,B
+NUM004,Aptitude,Number System,Easy,What is the value of 7 × 8?,88,72,69,66,C
+NUM005,Aptitude,Number System,Easy,Find the sum of digits of 345.,101,126,124,110,D
+NUM006,Aptitude,Number System,Easy,Is 37 a prime number?,105,102,125,94,B
+NUM007,Aptitude,Number System,Easy,Find the LCM of 2 and 4.,93,74,58,67,D
+NUM008,Aptitude,Number System,Easy,Find the HCF of 12 and 18.,127,103,93,112,B
+NUM009,Aptitude,Number System,Easy,Find the successor of 99.,139,121,128,114,B
+NUM010,Aptitude,Number System,Easy,Find the predecessor of 100.,51,36,54,28,B
+NUM011,Aptitude,Number System,Easy,What is the remainder when 25 is divided by 4?,56,82,52,45,C
+NUM012,Aptitude,Number System,Easy,Find the square of 12.,154,142,144,171,C
+NUM013,Aptitude,Number System,Easy,Find the cube of 5.,92,58,62,75,C
+NUM014,Aptitude,Number System,Easy,How many digits are there in the number 7890?,147,128,121,137,B
+NUM015,Aptitude,Number System,Easy,Find the smallest even number.,112,97,128,107,D
+NUM016,Aptitude,Number System,Easy,What is the value of 15 ÷ 3?,83,67,70,91,C
+NUM017,Aptitude,Number System,Easy,Find the sum of first 5 even numbers.,93,127,98,113,C
+NUM018,Aptitude,Number System,Easy,Is 21 divisible by 3?,51,81,61,76,C
+NUM019,Aptitude,Number System,Easy,Find the place value of 6 in 468.,77,49,47,52,B
+NUM020,Aptitude,Number System,Easy,Find the face value of 9 in 945.,131,92,111,102,D
+NUM021,Aptitude,Number System,Medium,"Find the LCM of 12, 15 and 20.",60,81,89,67,D
+NUM022,Aptitude,Number System,Medium,Find the HCF of 24 and 36.,55,35,45,62,C
+NUM023,Aptitude,Number System,Medium,How many prime numbers are there between 1 and 50?,20,29,13,43,A
+NUM024,Aptitude,Number System,Medium,"Find the least number which when divided by 6, 8 and 12 leaves remainder 1.",18,25,52,28,B
+NUM025,Aptitude,Number System,Medium,Find the greatest number which divides 45 and 60 leaving remainder 3.,90,84,97,110,A
+NUM026,Aptitude,Number System,Medium,Find the sum of first 20 natural numbers.,40,47,45,72,C
+NUM027,Aptitude,Number System,Medium,Find the number of zeros at the end of 100!,137,110,111,119,C
+NUM028,Aptitude,Number System,Medium,"If a number is divisible by 9, what can be said about the sum of its digits?",105,123,111,127,C
+NUM029,Aptitude,Number System,Medium,"Find the smallest number divisible by 5, 6 and 8.",45,22,28,32,C
+NUM030,Aptitude,Number System,Medium,How many digits are there in 2^10?,104,130,119,103,A
+NUM031,Aptitude,Number System,Medium,Find the remainder when 7^3 is divided by 6.,99,113,86,94,D
+NUM032,Aptitude,Number System,Medium,Find the HCF of 72 and 120.,142,139,157,131,B
+NUM033,Aptitude,Number System,Medium,Find the LCM of 18 and 24.,160,140,138,137,C
+NUM034,Aptitude,Number System,Medium,How many composite numbers are there between 1 and 30?,145,129,153,131,D
+NUM035,Aptitude,Number System,Medium,Find the unit digit of 7^45.,76,89,106,81,D
+NUM036,Aptitude,Number System,Medium,Find the smallest number which when divided by 7 leaves remainder 5.,105,110,132,122,B
+NUM037,Aptitude,Number System,Medium,Find the sum of digits of 2^8.,78,85,63,68,D
+NUM038,Aptitude,Number System,Medium,Find the greatest number which divides 84 and 126 exactly.,71,63,52,55,D
+NUM039,Aptitude,Number System,Medium,"If a number is divisible by 11, what can be said about the difference of sum of its digits?",84,55,76,63,D
+NUM040,Aptitude,Number System,Medium,Find the remainder when 1234 is divided by 9.,115,80,88,95,C
+NUM041,Aptitude,Number System,Hard,Find the number of trailing zeros in 125!,47,58,48,75,C
+NUM042,Aptitude,Number System,Hard,Find the largest 4-digit number exactly divisible by 88.,109,84,93,96,C
+NUM043,Aptitude,Number System,Hard,How many numbers between 1 and 100 are divisible by both 3 and 4?,68,81,51,55,D
+NUM044,Aptitude,Number System,Hard,"Find the least number which when divided by 15, 20 and 25 leaves remainder 7.",41,40,56,58,A
+NUM045,Aptitude,Number System,Hard,Find the smallest number which must be added to 540 to make it divisible by 9.,154,139,118,126,D
+NUM046,Aptitude,Number System,Hard,"Find the greatest number which when dividing 135, 225 and 405 leaves same remainder.",54,64,66,91,B
+NUM047,Aptitude,Number System,Hard,How many digits are there in 5^50?,86,84,105,79,B
+NUM048,Aptitude,Number System,Hard,Find the unit digit of 3^123.,67,80,69,87,C
+NUM049,Aptitude,Number System,Hard,"Find the smallest number which leaves remainder 2 when divided by 7, 9 and 11.",59,54,74,55,D
+NUM050,Aptitude,Number System,Hard,Find the sum of all prime numbers between 50 and 100.,134,164,146,137,D
+NUM051,Aptitude,Number System,Hard,How many factors does 720 have?,127,141,110,115,D
+NUM052,Aptitude,Number System,Hard,Find the remainder when 2^100 is divided by 7.,125,104,106,109,C
+NUM053,Aptitude,Number System,Hard,"Find the smallest number which is divisible by 12, 15 and 18.",30,50,37,25,A
+NUM054,Aptitude,Number System,Hard,Find the number of trailing zeros in 200!,40,32,59,26,B
+NUM055,Aptitude,Number System,Hard,Find the largest number less than 1000 which is exactly divisible by 37.,34,59,45,30,A
+GK001,GK,,Easy,Which of the following statements is correct regarding Indian Constitution??,Option A,Option B,Option C,Option D,A
+GK002,GK,,Easy,Which of the following statements is correct regarding Modern History??,Option A,Option B,Option C,Option D,A
+GK003,GK,,Easy,Which of the following statements is correct regarding Geography??,Option A,Option B,Option C,Option D,A
+GK004,GK,,Easy,Which of the following statements is correct regarding Economy basics??,Option A,Option B,Option C,Option D,B
+GK005,GK,,Easy,Which of the following statements is correct regarding Science basics??,Option A,Option B,Option C,Option D,A
+GK006,GK,,Easy,Which of the following statements is correct regarding Environment??,Option A,Option B,Option C,Option D,B
+GK007,GK,,Easy,Which of the following statements is correct regarding Polity??,Option A,Option B,Option C,Option D,C
+GK008,GK,,Easy,Which of the following statements is correct regarding International orgs??,Option A,Option B,Option C,Option D,C
+GK009,GK,,Easy,Which of the following statements is correct regarding Indian Constitution??,Option A,Option B,Option C,Option D,D
+GK010,GK,,Easy,Which of the following statements is correct regarding Modern History??,Option A,Option B,Option C,Option D,D
+GK011,GK,,Easy,Which of the following statements is correct regarding Geography??,Option A,Option B,Option C,Option D,B
+GK012,GK,,Easy,Which of the following statements is correct regarding Economy basics??,Option A,Option B,Option C,Option D,B
+GK013,GK,,Easy,Which of the following statements is correct regarding Science basics??,Option A,Option B,Option C,Option D,D
+GK014,GK,,Easy,Which of the following statements is correct regarding Environment??,Option A,Option B,Option C,Option D,D
+GK015,GK,,Easy,Which of the following statements is correct regarding Polity??,Option A,Option B,Option C,Option D,B
+GK016,GK,,Easy,Which of the following statements is correct regarding International orgs??,Option A,Option B,Option C,Option D,B
+GK017,GK,,Easy,Which of the following statements is correct regarding Indian Constitution??,Option A,Option B,Option C,Option D,C
+GK018,GK,,Easy,Which of the following statements is correct regarding Modern History??,Option A,Option B,Option C,Option D,A
+GK019,GK,,Easy,Which of the following statements is correct regarding Geography??,Option A,Option B,Option C,Option D,B
+GK020,GK,,Easy,Which of the following statements is correct regarding Economy basics??,Option A,Option B,Option C,Option D,A
+GK021,GK,,Easy,Which of the following statements is correct regarding Science basics??,Option A,Option B,Option C,Option D,B
+GK022,GK,,Easy,Which of the following statements is correct regarding Environment??,Option A,Option B,Option C,Option D,B
+GK023,GK,,Easy,Which of the following statements is correct regarding Polity??,Option A,Option B,Option C,Option D,A
+GK024,GK,,Easy,Which of the following statements is correct regarding International orgs??,Option A,Option B,Option C,Option D,A
+GK025,GK,,Easy,Which of the following statements is correct regarding Indian Constitution??,Option A,Option B,Option C,Option D,B
+GK026,GK,,Easy,Which of the following statements is correct regarding Modern History??,Option A,Option B,Option C,Option D,B
+GK027,GK,,Easy,Which of the following statements is correct regarding Geography??,Option A,Option B,Option C,Option D,B
+GK028,GK,,Easy,Which of the following statements is correct regarding Economy basics??,Option A,Option B,Option C,Option D,B
+GK029,GK,,Easy,Which of the following statements is correct regarding Science basics??,Option A,Option B,Option C,Option D,A
+GK030,GK,,Easy,Which of the following statements is correct regarding Environment??,Option A,Option B,Option C,Option D,C
+GK031,GK,,Easy,Which of the following statements is correct regarding Polity??,Option A,Option B,Option C,Option D,C
+GK032,GK,,Easy,Which of the following statements is correct regarding International orgs??,Option A,Option B,Option C,Option D,B
+GK033,GK,,Easy,Which of the following statements is correct regarding Indian Constitution??,Option A,Option B,Option C,Option D,C
+GK034,GK,,Easy,Which of the following statements is correct regarding Modern History??,Option A,Option B,Option C,Option D,B
+GK035,GK,,Easy,Which of the following statements is correct regarding Geography??,Option A,Option B,Option C,Option D,C
+GK036,GK,,Easy,Which of the following statements is correct regarding Economy basics??,Option A,Option B,Option C,Option D,A
+GK037,GK,,Easy,Which of the following statements is correct regarding Science basics??,Option A,Option B,Option C,Option D,D
+GK038,GK,,Easy,Which of the following statements is correct regarding Environment??,Option A,Option B,Option C,Option D,B
+GK039,GK,,Easy,Which of the following statements is correct regarding Polity??,Option A,Option B,Option C,Option D,D
+GK040,GK,,Easy,Which of the following statements is correct regarding International orgs??,Option A,Option B,Option C,Option D,B
+GK041,GK,,Easy,Which of the following statements is correct regarding Indian Constitution??,Option A,Option B,Option C,Option D,B
+GK042,GK,,Easy,Which of the following statements is correct regarding Modern History??,Option A,Option B,Option C,Option D,C
+GK043,GK,,Easy,Which of the following statements is correct regarding Geography??,Option A,Option B,Option C,Option D,C
+GK044,GK,,Easy,Which of the following statements is correct regarding Economy basics??,Option A,Option B,Option C,Option D,A
+GK045,GK,,Easy,Which of the following statements is correct regarding Science basics??,Option A,Option B,Option C,Option D,A
+GK046,GK,,Easy,Which of the following statements is correct regarding Environment??,Option A,Option B,Option C,Option D,D
+GK047,GK,,Easy,Which of the following statements is correct regarding Polity??,Option A,Option B,Option C,Option D,A
+GK048,GK,,Easy,Which of the following statements is correct regarding International orgs??,Option A,Option B,Option C,Option D,D
+GK049,GK,,Easy,Which of the following statements is correct regarding Indian Constitution??,Option A,Option B,Option C,Option D,C
+GK050,GK,,Easy,Which of the following statements is correct regarding Modern History??,Option A,Option B,Option C,Option D,D
+GK051,GK,,Easy,Which of the following statements is correct regarding Geography??,Option A,Option B,Option C,Option D,A
+GK052,GK,,Easy,Which of the following statements is correct regarding Economy basics??,Option A,Option B,Option C,Option D,D
+GK053,GK,,Easy,Which of the following statements is correct regarding Science basics??,Option A,Option B,Option C,Option D,C
+GK054,GK,,Easy,Which of the following statements is correct regarding Environment??,Option A,Option B,Option C,Option D,C
+GK055,GK,,Easy,Which of the following statements is correct regarding Polity??,Option A,Option B,Option C,Option D,D
+GK056,GK,,Easy,Which of the following statements is correct regarding International orgs??,Option A,Option B,Option C,Option D,A
+GK057,GK,,Easy,Which of the following statements is correct regarding Indian Constitution??,Option A,Option B,Option C,Option D,A
+GK058,GK,,Easy,Which of the following statements is correct regarding Modern History??,Option A,Option B,Option C,Option D,B
+GK059,GK,,Easy,Which of the following statements is correct regarding Geography??,Option A,Option B,Option C,Option D,D
+GK060,GK,,Easy,Which of the following statements is correct regarding Economy basics??,Option A,Option B,Option C,Option D,A
+GK061,GK,,Easy,Which of the following statements is correct regarding Science basics??,Option A,Option B,Option C,Option D,D
+GK062,GK,,Easy,Which of the following statements is correct regarding Environment??,Option A,Option B,Option C,Option D,D
+GK063,GK,,Easy,Which of the following statements is correct regarding Polity??,Option A,Option B,Option C,Option D,D
+GK064,GK,,Easy,Which of the following statements is correct regarding International orgs??,Option A,Option B,Option C,Option D,A
+GK065,GK,,Easy,Which of the following statements is correct regarding Indian Constitution??,Option A,Option B,Option C,Option D,B
+GK066,GK,,Easy,Which of the following statements is correct regarding Modern History??,Option A,Option B,Option C,Option D,C
+GK067,GK,,Easy,Which of the following statements is correct regarding Geography??,Option A,Option B,Option C,Option D,B
+GK068,GK,,Easy,Which of the following statements is correct regarding Economy basics??,Option A,Option B,Option C,Option D,C
+GK069,GK,,Easy,Which of the following statements is correct regarding Science basics??,Option A,Option B,Option C,Option D,B
+GK070,GK,,Easy,Which of the following statements is correct regarding Environment??,Option A,Option B,Option C,Option D,A
+GK071,GK,,Easy,Which of the following statements is correct regarding Polity??,Option A,Option B,Option C,Option D,D
+GK072,GK,,Easy,Which of the following statements is correct regarding International orgs??,Option A,Option B,Option C,Option D,D
+GK073,GK,,Easy,Which of the following statements is correct regarding Indian Constitution??,Option A,Option B,Option C,Option D,C
+GK074,GK,,Easy,Which of the following statements is correct regarding Modern History??,Option A,Option B,Option C,Option D,A
+GK075,GK,,Easy,Which of the following statements is correct regarding Geography??,Option A,Option B,Option C,Option D,C
+GK076,GK,,Easy,Which of the following statements is correct regarding Economy basics??,Option A,Option B,Option C,Option D,B
+GK077,GK,,Easy,Which of the following statements is correct regarding Science basics??,Option A,Option B,Option C,Option D,C
+GK078,GK,,Easy,Which of the following statements is correct regarding Environment??,Option A,Option B,Option C,Option D,D
+GK079,GK,,Easy,Which of the following statements is correct regarding Polity??,Option A,Option B,Option C,Option D,B
+GK080,GK,,Easy,Which of the following statements is correct regarding International orgs??,Option A,Option B,Option C,Option D,D
+GK081,GK,,Easy,Which of the following statements is correct regarding Indian Constitution??,Option A,Option B,Option C,Option D,D
+GK082,GK,,Easy,Which of the following statements is correct regarding Modern History??,Option A,Option B,Option C,Option D,D
+GK083,GK,,Easy,Which of the following statements is correct regarding Geography??,Option A,Option B,Option C,Option D,C
+GK084,GK,,Easy,Which of the following statements is correct regarding Economy basics??,Option A,Option B,Option C,Option D,D
+GK085,GK,,Easy,Which of the following statements is correct regarding Science basics??,Option A,Option B,Option C,Option D,D
+GK086,GK,,Easy,Which of the following statements is correct regarding Environment??,Option A,Option B,Option C,Option D,D
+GK087,GK,,Easy,Which of the following statements is correct regarding Polity??,Option A,Option B,Option C,Option D,A
+GK088,GK,,Easy,Which of the following statements is correct regarding International orgs??,Option A,Option B,Option C,Option D,A
+GK089,GK,,Easy,Which of the following statements is correct regarding Indian Constitution??,Option A,Option B,Option C,Option D,C
+GK090,GK,,Easy,Which of the following statements is correct regarding Modern History??,Option A,Option B,Option C,Option D,B
+GK091,GK,,Easy,Which of the following statements is correct regarding Geography??,Option A,Option B,Option C,Option D,C
+GK092,GK,,Easy,Which of the following statements is correct regarding Economy basics??,Option A,Option B,Option C,Option D,A
+GK093,GK,,Easy,Which of the following statements is correct regarding Science basics??,Option A,Option B,Option C,Option D,B
+GK094,GK,,Easy,Which of the following statements is correct regarding Environment??,Option A,Option B,Option C,Option D,D
+GK095,GK,,Easy,Which of the following statements is correct regarding Polity??,Option A,Option B,Option C,Option D,A
+GK096,GK,,Easy,Which of the following statements is correct regarding International orgs??,Option A,Option B,Option C,Option D,D
+GK097,GK,,Easy,Which of the following statements is correct regarding Indian Constitution??,Option A,Option B,Option C,Option D,A
+GK098,GK,,Easy,Which of the following statements is correct regarding Modern History??,Option A,Option B,Option C,Option D,C
+GK099,GK,,Easy,Which of the following statements is correct regarding Geography??,Option A,Option B,Option C,Option D,A
+GK100,GK,,Easy,Which of the following statements is correct regarding Economy basics??,Option A,Option B,Option C,Option D,C
+GK101,GK,,Easy,Which of the following statements is correct regarding Science basics??,Option A,Option B,Option C,Option D,C
+GK102,GK,,Easy,Which of the following statements is correct regarding Environment??,Option A,Option B,Option C,Option D,A
+GK103,GK,,Easy,Which of the following statements is correct regarding Polity??,Option A,Option B,Option C,Option D,C
+GK104,GK,,Easy,Which of the following statements is correct regarding International orgs??,Option A,Option B,Option C,Option D,A
+GK105,GK,,Easy,Which of the following statements is correct regarding Indian Constitution??,Option A,Option B,Option C,Option D,D
+GK106,GK,,Easy,Which of the following statements is correct regarding Modern History??,Option A,Option B,Option C,Option D,B
+GK107,GK,,Easy,Which of the following statements is correct regarding Geography??,Option A,Option B,Option C,Option D,B
+GK108,GK,,Easy,Which of the following statements is correct regarding Economy basics??,Option A,Option B,Option C,Option D,A
+GK109,GK,,Easy,Which of the following statements is correct regarding Science basics??,Option A,Option B,Option C,Option D,D
+GK110,GK,,Easy,Which of the following statements is correct regarding Environment??,Option A,Option B,Option C,Option D,D
+GK111,GK,,Easy,Which of the following statements is correct regarding Polity??,Option A,Option B,Option C,Option D,D
+GK112,GK,,Easy,Which of the following statements is correct regarding International orgs??,Option A,Option B,Option C,Option D,A
+GK113,GK,,Easy,Which of the following statements is correct regarding Indian Constitution??,Option A,Option B,Option C,Option D,D
+GK114,GK,,Easy,Which of the following statements is correct regarding Modern History??,Option A,Option B,Option C,Option D,A
+GK115,GK,,Easy,Which of the following statements is correct regarding Geography??,Option A,Option B,Option C,Option D,C
+GK116,GK,,Easy,Which of the following statements is correct regarding Economy basics??,Option A,Option B,Option C,Option D,D
+GK117,GK,,Easy,Which of the following statements is correct regarding Science basics??,Option A,Option B,Option C,Option D,B
+GK118,GK,,Easy,Which of the following statements is correct regarding Environment??,Option A,Option B,Option C,Option D,D
+GK119,GK,,Easy,Which of the following statements is correct regarding Polity??,Option A,Option B,Option C,Option D,C
+GK120,GK,,Easy,Which of the following statements is correct regarding International orgs??,Option A,Option B,Option C,Option D,B
+GK121,GK,,Easy,Which of the following statements is correct regarding Indian Constitution??,Option A,Option B,Option C,Option D,A
+GK122,GK,,Easy,Which of the following statements is correct regarding Modern History??,Option A,Option B,Option C,Option D,B
+GK123,GK,,Easy,Which of the following statements is correct regarding Geography??,Option A,Option B,Option C,Option D,D
+GK124,GK,,Easy,Which of the following statements is correct regarding Economy basics??,Option A,Option B,Option C,Option D,C
+GK125,GK,,Easy,Which of the following statements is correct regarding Science basics??,Option A,Option B,Option C,Option D,B
+GK126,GK,,Easy,Which of the following statements is correct regarding Environment??,Option A,Option B,Option C,Option D,D
+GK127,GK,,Easy,Which of the following statements is correct regarding Polity??,Option A,Option B,Option C,Option D,D
+GK128,GK,,Easy,Which of the following statements is correct regarding International orgs??,Option A,Option B,Option C,Option D,B
+GK129,GK,,Easy,Which of the following statements is correct regarding Indian Constitution??,Option A,Option B,Option C,Option D,A
+GK130,GK,,Easy,Which of the following statements is correct regarding Modern History??,Option A,Option B,Option C,Option D,A
+GK131,GK,,Easy,Which of the following statements is correct regarding Geography??,Option A,Option B,Option C,Option D,B
+GK132,GK,,Easy,Which of the following statements is correct regarding Economy basics??,Option A,Option B,Option C,Option D,B
+GK133,GK,,Easy,Which of the following statements is correct regarding Science basics??,Option A,Option B,Option C,Option D,A
+GK134,GK,,Easy,Which of the following statements is correct regarding Environment??,Option A,Option B,Option C,Option D,A
+GK135,GK,,Easy,Which of the following statements is correct regarding Polity??,Option A,Option B,Option C,Option D,C
+GK136,GK,,Easy,Which of the following statements is correct regarding International orgs??,Option A,Option B,Option C,Option D,C
+GK137,GK,,Easy,Which of the following statements is correct regarding Indian Constitution??,Option A,Option B,Option C,Option D,D
+GK138,GK,,Easy,Which of the following statements is correct regarding Modern History??,Option A,Option B,Option C,Option D,B
+GK139,GK,,Easy,Which of the following statements is correct regarding Geography??,Option A,Option B,Option C,Option D,D
+GK140,GK,,Easy,Which of the following statements is correct regarding Economy basics??,Option A,Option B,Option C,Option D,D
+GK141,GK,,Easy,Which of the following statements is correct regarding Science basics??,Option A,Option B,Option C,Option D,A
+GK142,GK,,Easy,Which of the following statements is correct regarding Environment??,Option A,Option B,Option C,Option D,A
+GK143,GK,,Easy,Which of the following statements is correct regarding Polity??,Option A,Option B,Option C,Option D,B
+GK144,GK,,Easy,Which of the following statements is correct regarding International orgs??,Option A,Option B,Option C,Option D,B
+GK145,GK,,Easy,Which of the following statements is correct regarding Indian Constitution??,Option A,Option B,Option C,Option D,C
+GK146,GK,,Easy,Which of the following statements is correct regarding Modern History??,Option A,Option B,Option C,Option D,D
+GK147,GK,,Easy,Which of the following statements is correct regarding Geography??,Option A,Option B,Option C,Option D,A
+GK148,GK,,Easy,Which of the following statements is correct regarding Economy basics??,Option A,Option B,Option C,Option D,B
+GK149,GK,,Easy,Which of the following statements is correct regarding Science basics??,Option A,Option B,Option C,Option D,B
+GK150,GK,,Easy,Which of the following statements is correct regarding Environment??,Option A,Option B,Option C,Option D,C
+GK151,GK,,Easy,Which of the following statements is correct regarding Polity??,Option A,Option B,Option C,Option D,B
+GK152,GK,,Easy,Which of the following statements is correct regarding International orgs??,Option A,Option B,Option C,Option D,D
+GK153,GK,,Easy,Which of the following statements is correct regarding Indian Constitution??,Option A,Option B,Option C,Option D,A
+GK154,GK,,Easy,Which of the following statements is correct regarding Modern History??,Option A,Option B,Option C,Option D,B
+GK155,GK,,Easy,Which of the following statements is correct regarding Geography??,Option A,Option B,Option C,Option D,C
+GK156,GK,,Easy,Which of the following statements is correct regarding Economy basics??,Option A,Option B,Option C,Option D,D
+GK157,GK,,Easy,Which of the following statements is correct regarding Science basics??,Option A,Option B,Option C,Option D,D
+GK158,GK,,Easy,Which of the following statements is correct regarding Environment??,Option A,Option B,Option C,Option D,B
+GK159,GK,,Easy,Which of the following statements is correct regarding Polity??,Option A,Option B,Option C,Option D,A
+GK160,GK,,Easy,Which of the following statements is correct regarding International orgs??,Option A,Option B,Option C,Option D,D
+GK161,GK,,Easy,Which of the following statements is correct regarding Indian Constitution??,Option A,Option B,Option C,Option D,B
+GK162,GK,,Easy,Which of the following statements is correct regarding Modern History??,Option A,Option B,Option C,Option D,B
+GK163,GK,,Easy,Which of the following statements is correct regarding Geography??,Option A,Option B,Option C,Option D,B
+GK164,GK,,Easy,Which of the following statements is correct regarding Economy basics??,Option A,Option B,Option C,Option D,C
+GK165,GK,,Easy,Which of the following statements is correct regarding Science basics??,Option A,Option B,Option C,Option D,D
+GK166,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,D
+GK167,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,C
+GK168,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,A
+GK169,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,C
+GK170,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,B
+GK171,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,C
+GK172,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,C
+GK173,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,A
+GK174,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,C
+GK175,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,A
+GK176,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,A
+GK177,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,D
+GK178,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,C
+GK179,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,A
+GK180,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,C
+GK181,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,D
+GK182,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,C
+GK183,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,C
+GK184,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,C
+GK185,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,A
+GK186,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,D
+GK187,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,A
+GK188,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,C
+GK189,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,C
+GK190,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,D
+GK191,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,D
+GK192,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,B
+GK193,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,C
+GK194,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,A
+GK195,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,A
+GK196,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,D
+GK197,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,D
+GK198,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,A
+GK199,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,D
+GK200,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,B
+GK201,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,A
+GK202,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,B
+GK203,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,D
+GK204,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,B
+GK205,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,D
+GK206,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,A
+GK207,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,A
+GK208,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,B
+GK209,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,A
+GK210,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,A
+GK211,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,C
+GK212,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,D
+GK213,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,D
+GK214,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,B
+GK215,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,C
+GK216,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,D
+GK217,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,B
+GK218,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,B
+GK219,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,A
+GK220,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,A
+GK221,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,C
+GK222,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,A
+GK223,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,A
+GK224,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,B
+GK225,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,C
+GK226,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,A
+GK227,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,C
+GK228,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,D
+GK229,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,A
+GK230,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,C
+GK231,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,A
+GK232,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,D
+GK233,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,D
+GK234,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,A
+GK235,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,A
+GK236,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,A
+GK237,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,C
+GK238,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,D
+GK239,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,B
+GK240,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,C
+GK241,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,B
+GK242,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,D
+GK243,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,C
+GK244,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,B
+GK245,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,C
+GK246,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,C
+GK247,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,B
+GK248,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,B
+GK249,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,B
+GK250,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,A
+GK251,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,C
+GK252,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,D
+GK253,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,A
+GK254,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,C
+GK255,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,A
+GK256,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,B
+GK257,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,B
+GK258,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,A
+GK259,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,A
+GK260,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,B
+GK261,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,A
+GK262,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,B
+GK263,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,B
+GK264,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,B
+GK265,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,D
+GK266,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,B
+GK267,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,A
+GK268,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,B
+GK269,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,B
+GK270,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,C
+GK271,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,A
+GK272,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,B
+GK273,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,A
+GK274,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,A
+GK275,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,C
+GK276,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,B
+GK277,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,D
+GK278,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,A
+GK279,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,A
+GK280,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,A
+GK281,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,D
+GK282,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,A
+GK283,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,C
+GK284,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,C
+GK285,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,A
+GK286,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,D
+GK287,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,C
+GK288,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,A
+GK289,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,B
+GK290,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,A
+GK291,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,A
+GK292,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,A
+GK293,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,C
+GK294,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,A
+GK295,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,C
+GK296,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,A
+GK297,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,A
+GK298,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,A
+GK299,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,A
+GK300,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,A
+GK301,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,D
+GK302,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,D
+GK303,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,A
+GK304,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,D
+GK305,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,B
+GK306,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,D
+GK307,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,D
+GK308,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,C
+GK309,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,D
+GK310,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,C
+GK311,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,B
+GK312,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,B
+GK313,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,B
+GK314,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,D
+GK315,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,A
+GK316,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,D
+GK317,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,A
+GK318,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,B
+GK319,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,D
+GK320,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,B
+GK321,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,B
+GK322,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,D
+GK323,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,D
+GK324,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,B
+GK325,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,C
+GK326,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,B
+GK327,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,C
+GK328,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,A
+GK329,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,C
+GK330,GK,,Medium,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,B
+GK331,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,D
+GK332,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,D
+GK333,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,D
+GK334,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,D
+GK335,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,C
+GK336,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,C
+GK337,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,A
+GK338,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,A
+GK339,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,D
+GK340,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,A
+GK341,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,C
+GK342,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,D
+GK343,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,B
+GK344,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,C
+GK345,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,B
+GK346,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,B
+GK347,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,D
+GK348,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,B
+GK349,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,D
+GK350,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,C
+GK351,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,A
+GK352,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,D
+GK353,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,B
+GK354,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,C
+GK355,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,D
+GK356,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,D
+GK357,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,C
+GK358,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,B
+GK359,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,D
+GK360,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,D
+GK361,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,D
+GK362,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,C
+GK363,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,A
+GK364,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,B
+GK365,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,B
+GK366,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,A
+GK367,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,B
+GK368,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,A
+GK369,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,A
+GK370,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,B
+GK371,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,A
+GK372,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,C
+GK373,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,D
+GK374,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,B
+GK375,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,B
+GK376,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,A
+GK377,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,C
+GK378,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,A
+GK379,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,C
+GK380,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,A
+GK381,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,C
+GK382,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,B
+GK383,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,C
+GK384,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,D
+GK385,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,B
+GK386,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,A
+GK387,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,C
+GK388,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,A
+GK389,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,B
+GK390,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,C
+GK391,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,C
+GK392,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,D
+GK393,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,C
+GK394,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,A
+GK395,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,D
+GK396,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,B
+GK397,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,B
+GK398,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,A
+GK399,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,C
+GK400,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,D
+GK401,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,A
+GK402,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,B
+GK403,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,C
+GK404,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,C
+GK405,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,A
+GK406,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,B
+GK407,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,D
+GK408,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,C
+GK409,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,D
+GK410,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,D
+GK411,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,C
+GK412,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,B
+GK413,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,D
+GK414,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,C
+GK415,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,B
+GK416,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,B
+GK417,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,D
+GK418,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,A
+GK419,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,C
+GK420,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,C
+GK421,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,A
+GK422,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,B
+GK423,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,A
+GK424,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,D
+GK425,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,A
+GK426,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,D
+GK427,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,A
+GK428,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,A
+GK429,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,B
+GK430,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,B
+GK431,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,D
+GK432,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,B
+GK433,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,D
+GK434,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,C
+GK435,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,C
+GK436,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,B
+GK437,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,A
+GK438,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,D
+GK439,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,C
+GK440,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,D
+GK441,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,A
+GK442,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,D
+GK443,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,A
+GK444,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,D
+GK445,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,D
+GK446,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,A
+GK447,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,C
+GK448,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,A
+GK449,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,D
+GK450,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,D
+GK451,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,A
+GK452,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,D
+GK453,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,D
+GK454,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,A
+GK455,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,A
+GK456,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,D
+GK457,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,D
+GK458,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,D
+GK459,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,B
+GK460,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,C
+GK461,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,A
+GK462,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,D
+GK463,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,C
+GK464,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,D
+GK465,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,C
+GK466,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,B
+GK467,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,C
+GK468,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,A
+GK469,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,A
+GK470,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,B
+GK471,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,D
+GK472,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,D
+GK473,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,C
+GK474,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,B
+GK475,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,B
+GK476,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,C
+GK477,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,A
+GK478,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,B
+GK479,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,B
+GK480,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,D
+GK481,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,C
+GK482,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,C
+GK483,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,B
+GK484,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,A
+GK485,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,D
+GK486,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,D
+GK487,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,A
+GK488,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,B
+GK489,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,B
+GK490,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,A
+GK491,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,C
+GK492,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,D
+GK493,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,C
+GK494,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,B
+GK495,GK,,Hard,Which of the following is correct regarding the given topic?,Option A,Option B,Option C,Option D,D
+ENG001,English,,Easy,Choose the correct option to complete the sentence: (Question 1)?,Option A,Option B,Option C,Option D,D
+ENG002,English,,Easy,Identify the correct synonym of the given word: (Question 2)?,Option A,Option B,Option C,Option D,B
+ENG003,English,,Easy,Choose the correct antonym of the given word: (Question 3)?,Option A,Option B,Option C,Option D,A
+ENG004,English,,Easy,Select the grammatically correct sentence: (Question 4)?,Option A,Option B,Option C,Option D,B
+ENG005,English,,Easy,Choose the correct form of the verb: (Question 5)?,Option A,Option B,Option C,Option D,A
+ENG006,English,,Easy,Choose the correct option to complete the sentence: (Question 6)?,Option A,Option B,Option C,Option D,A
+ENG007,English,,Easy,Identify the correct synonym of the given word: (Question 7)?,Option A,Option B,Option C,Option D,B
+ENG008,English,,Easy,Choose the correct antonym of the given word: (Question 8)?,Option A,Option B,Option C,Option D,D
+ENG009,English,,Easy,Select the grammatically correct sentence: (Question 9)?,Option A,Option B,Option C,Option D,D
+ENG010,English,,Easy,Choose the correct form of the verb: (Question 10)?,Option A,Option B,Option C,Option D,B
+ENG011,English,,Easy,Choose the correct option to complete the sentence: (Question 11)?,Option A,Option B,Option C,Option D,B
+ENG012,English,,Easy,Identify the correct synonym of the given word: (Question 12)?,Option A,Option B,Option C,Option D,A
+ENG013,English,,Easy,Choose the correct antonym of the given word: (Question 13)?,Option A,Option B,Option C,Option D,B
+ENG014,English,,Easy,Select the grammatically correct sentence: (Question 14)?,Option A,Option B,Option C,Option D,C
+ENG015,English,,Easy,Choose the correct form of the verb: (Question 15)?,Option A,Option B,Option C,Option D,B
+ENG016,English,,Easy,Choose the correct option to complete the sentence: (Question 16)?,Option A,Option B,Option C,Option D,D
+ENG017,English,,Easy,Identify the correct synonym of the given word: (Question 17)?,Option A,Option B,Option C,Option D,A
+ENG018,English,,Easy,Choose the correct antonym of the given word: (Question 18)?,Option A,Option B,Option C,Option D,B
+ENG019,English,,Easy,Select the grammatically correct sentence: (Question 19)?,Option A,Option B,Option C,Option D,C
+ENG020,English,,Easy,Choose the correct form of the verb: (Question 20)?,Option A,Option B,Option C,Option D,C
+ENG021,English,,Easy,Choose the correct option to complete the sentence: (Question 21)?,Option A,Option B,Option C,Option D,C
+ENG022,English,,Easy,Identify the correct synonym of the given word: (Question 22)?,Option A,Option B,Option C,Option D,D
+ENG023,English,,Easy,Choose the correct antonym of the given word: (Question 23)?,Option A,Option B,Option C,Option D,C
+ENG024,English,,Easy,Select the grammatically correct sentence: (Question 24)?,Option A,Option B,Option C,Option D,D
+ENG025,English,,Easy,Choose the correct form of the verb: (Question 25)?,Option A,Option B,Option C,Option D,B
+ENG026,English,,Easy,Choose the correct option to complete the sentence: (Question 26)?,Option A,Option B,Option C,Option D,B
+ENG027,English,,Easy,Identify the correct synonym of the given word: (Question 27)?,Option A,Option B,Option C,Option D,C
+ENG028,English,,Easy,Choose the correct antonym of the given word: (Question 28)?,Option A,Option B,Option C,Option D,B
+ENG029,English,,Easy,Select the grammatically correct sentence: (Question 29)?,Option A,Option B,Option C,Option D,B
+ENG030,English,,Easy,Choose the correct form of the verb: (Question 30)?,Option A,Option B,Option C,Option D,A
+ENG031,English,,Easy,Choose the correct option to complete the sentence: (Question 31)?,Option A,Option B,Option C,Option D,C
+ENG032,English,,Easy,Identify the correct synonym of the given word: (Question 32)?,Option A,Option B,Option C,Option D,A
+ENG033,English,,Easy,Choose the correct antonym of the given word: (Question 33)?,Option A,Option B,Option C,Option D,D
+ENG034,English,,Easy,Select the grammatically correct sentence: (Question 34)?,Option A,Option B,Option C,Option D,B
+ENG035,English,,Easy,Choose the correct form of the verb: (Question 35)?,Option A,Option B,Option C,Option D,D
+ENG036,English,,Easy,Choose the correct option to complete the sentence: (Question 36)?,Option A,Option B,Option C,Option D,A
+ENG037,English,,Easy,Identify the correct synonym of the given word: (Question 37)?,Option A,Option B,Option C,Option D,B
+ENG038,English,,Easy,Choose the correct antonym of the given word: (Question 38)?,Option A,Option B,Option C,Option D,D
+ENG039,English,,Easy,Select the grammatically correct sentence: (Question 39)?,Option A,Option B,Option C,Option D,A
+ENG040,English,,Easy,Choose the correct form of the verb: (Question 40)?,Option A,Option B,Option C,Option D,A
+ENG041,English,,Easy,Choose the correct option to complete the sentence: (Question 41)?,Option A,Option B,Option C,Option D,C
+ENG042,English,,Easy,Identify the correct synonym of the given word: (Question 42)?,Option A,Option B,Option C,Option D,C
+ENG043,English,,Easy,Choose the correct antonym of the given word: (Question 43)?,Option A,Option B,Option C,Option D,D
+ENG044,English,,Easy,Select the grammatically correct sentence: (Question 44)?,Option A,Option B,Option C,Option D,D
+ENG045,English,,Easy,Choose the correct form of the verb: (Question 45)?,Option A,Option B,Option C,Option D,A
+ENG046,English,,Easy,Choose the correct option to complete the sentence: (Question 46)?,Option A,Option B,Option C,Option D,A
+ENG047,English,,Easy,Identify the correct synonym of the given word: (Question 47)?,Option A,Option B,Option C,Option D,A
+ENG048,English,,Easy,Choose the correct antonym of the given word: (Question 48)?,Option A,Option B,Option C,Option D,C
+ENG049,English,,Easy,Select the grammatically correct sentence: (Question 49)?,Option A,Option B,Option C,Option D,B
+ENG050,English,,Easy,Choose the correct form of the verb: (Question 50)?,Option A,Option B,Option C,Option D,A
+ENG051,English,,Easy,Choose the correct option to complete the sentence: (Question 51)?,Option A,Option B,Option C,Option D,D
+ENG052,English,,Easy,Identify the correct synonym of the given word: (Question 52)?,Option A,Option B,Option C,Option D,D
+ENG053,English,,Easy,Choose the correct antonym of the given word: (Question 53)?,Option A,Option B,Option C,Option D,C
+ENG054,English,,Easy,Select the grammatically correct sentence: (Question 54)?,Option A,Option B,Option C,Option D,D
+ENG055,English,,Easy,Choose the correct form of the verb: (Question 55)?,Option A,Option B,Option C,Option D,B
+ENG056,English,,Easy,Choose the correct option to complete the sentence: (Question 56)?,Option A,Option B,Option C,Option D,A
+ENG057,English,,Easy,Identify the correct synonym of the given word: (Question 57)?,Option A,Option B,Option C,Option D,A
+ENG058,English,,Easy,Choose the correct antonym of the given word: (Question 58)?,Option A,Option B,Option C,Option D,A
+ENG059,English,,Easy,Select the grammatically correct sentence: (Question 59)?,Option A,Option B,Option C,Option D,B
+ENG060,English,,Easy,Choose the correct form of the verb: (Question 60)?,Option A,Option B,Option C,Option D,A
+ENG061,English,,Easy,Choose the correct option to complete the sentence: (Question 61)?,Option A,Option B,Option C,Option D,B
+ENG062,English,,Easy,Identify the correct synonym of the given word: (Question 62)?,Option A,Option B,Option C,Option D,B
+ENG063,English,,Easy,Choose the correct antonym of the given word: (Question 63)?,Option A,Option B,Option C,Option D,D
+ENG064,English,,Easy,Select the grammatically correct sentence: (Question 64)?,Option A,Option B,Option C,Option D,C
+ENG065,English,,Easy,Choose the correct form of the verb: (Question 65)?,Option A,Option B,Option C,Option D,C
+ENG066,English,,Easy,Choose the correct option to complete the sentence: (Question 66)?,Option A,Option B,Option C,Option D,A
+ENG067,English,,Easy,Identify the correct synonym of the given word: (Question 67)?,Option A,Option B,Option C,Option D,A
+ENG068,English,,Easy,Choose the correct antonym of the given word: (Question 68)?,Option A,Option B,Option C,Option D,B
+ENG069,English,,Easy,Select the grammatically correct sentence: (Question 69)?,Option A,Option B,Option C,Option D,A
+ENG070,English,,Easy,Choose the correct form of the verb: (Question 70)?,Option A,Option B,Option C,Option D,D
+ENG071,English,,Easy,Choose the correct option to complete the sentence: (Question 71)?,Option A,Option B,Option C,Option D,B
+ENG072,English,,Easy,Identify the correct synonym of the given word: (Question 72)?,Option A,Option B,Option C,Option D,A
+ENG073,English,,Easy,Choose the correct antonym of the given word: (Question 73)?,Option A,Option B,Option C,Option D,B
+ENG074,English,,Easy,Select the grammatically correct sentence: (Question 74)?,Option A,Option B,Option C,Option D,A
+ENG075,English,,Easy,Choose the correct form of the verb: (Question 75)?,Option A,Option B,Option C,Option D,B
+ENG076,English,,Easy,Choose the correct option to complete the sentence: (Question 76)?,Option A,Option B,Option C,Option D,A
+ENG077,English,,Easy,Identify the correct synonym of the given word: (Question 77)?,Option A,Option B,Option C,Option D,A
+ENG078,English,,Easy,Choose the correct antonym of the given word: (Question 78)?,Option A,Option B,Option C,Option D,B
+ENG079,English,,Easy,Select the grammatically correct sentence: (Question 79)?,Option A,Option B,Option C,Option D,B
+ENG080,English,,Easy,Choose the correct form of the verb: (Question 80)?,Option A,Option B,Option C,Option D,B
+ENG081,English,,Easy,Choose the correct option to complete the sentence: (Question 81)?,Option A,Option B,Option C,Option D,B
+ENG082,English,,Easy,Identify the correct synonym of the given word: (Question 82)?,Option A,Option B,Option C,Option D,B
+ENG083,English,,Easy,Choose the correct antonym of the given word: (Question 83)?,Option A,Option B,Option C,Option D,C
+ENG084,English,,Easy,Select the grammatically correct sentence: (Question 84)?,Option A,Option B,Option C,Option D,B
+ENG085,English,,Easy,Choose the correct form of the verb: (Question 85)?,Option A,Option B,Option C,Option D,C
+ENG086,English,,Easy,Choose the correct option to complete the sentence: (Question 86)?,Option A,Option B,Option C,Option D,D
+ENG087,English,,Easy,Identify the correct synonym of the given word: (Question 87)?,Option A,Option B,Option C,Option D,C
+ENG088,English,,Easy,Choose the correct antonym of the given word: (Question 88)?,Option A,Option B,Option C,Option D,D
+ENG089,English,,Easy,Select the grammatically correct sentence: (Question 89)?,Option A,Option B,Option C,Option D,B
+ENG090,English,,Easy,Choose the correct form of the verb: (Question 90)?,Option A,Option B,Option C,Option D,D
+ENG091,English,,Easy,Choose the correct option to complete the sentence: (Question 91)?,Option A,Option B,Option C,Option D,B
+ENG092,English,,Easy,Identify the correct synonym of the given word: (Question 92)?,Option A,Option B,Option C,Option D,B
+ENG093,English,,Easy,Choose the correct antonym of the given word: (Question 93)?,Option A,Option B,Option C,Option D,B
+ENG094,English,,Easy,Select the grammatically correct sentence: (Question 94)?,Option A,Option B,Option C,Option D,A
+ENG095,English,,Easy,Choose the correct form of the verb: (Question 95)?,Option A,Option B,Option C,Option D,D
+ENG096,English,,Easy,Choose the correct option to complete the sentence: (Question 96)?,Option A,Option B,Option C,Option D,B
+ENG097,English,,Easy,Identify the correct synonym of the given word: (Question 97)?,Option A,Option B,Option C,Option D,A
+ENG098,English,,Easy,Choose the correct antonym of the given word: (Question 98)?,Option A,Option B,Option C,Option D,A
+ENG099,English,,Easy,Select the grammatically correct sentence: (Question 99)?,Option A,Option B,Option C,Option D,D
+ENG100,English,,Easy,Choose the correct form of the verb: (Question 100)?,Option A,Option B,Option C,Option D,D
+ENG101,English,,Easy,Choose the correct option to complete the sentence: (Question 101)?,Option A,Option B,Option C,Option D,D
+ENG102,English,,Easy,Identify the correct synonym of the given word: (Question 102)?,Option A,Option B,Option C,Option D,C
+ENG103,English,,Easy,Choose the correct antonym of the given word: (Question 103)?,Option A,Option B,Option C,Option D,D
+ENG104,English,,Easy,Select the grammatically correct sentence: (Question 104)?,Option A,Option B,Option C,Option D,A
+ENG105,English,,Easy,Choose the correct form of the verb: (Question 105)?,Option A,Option B,Option C,Option D,D
+ENG106,English,,Easy,Choose the correct option to complete the sentence: (Question 106)?,Option A,Option B,Option C,Option D,C
+ENG107,English,,Easy,Identify the correct synonym of the given word: (Question 107)?,Option A,Option B,Option C,Option D,A
+ENG108,English,,Easy,Choose the correct antonym of the given word: (Question 108)?,Option A,Option B,Option C,Option D,D
+ENG109,English,,Easy,Select the grammatically correct sentence: (Question 109)?,Option A,Option B,Option C,Option D,D
+ENG110,English,,Easy,Choose the correct form of the verb: (Question 110)?,Option A,Option B,Option C,Option D,A
+ENG111,English,,Easy,Choose the correct option to complete the sentence: (Question 111)?,Option A,Option B,Option C,Option D,A
+ENG112,English,,Easy,Identify the correct synonym of the given word: (Question 112)?,Option A,Option B,Option C,Option D,A
+ENG113,English,,Easy,Choose the correct antonym of the given word: (Question 113)?,Option A,Option B,Option C,Option D,C
+ENG114,English,,Easy,Select the grammatically correct sentence: (Question 114)?,Option A,Option B,Option C,Option D,B
+ENG115,English,,Easy,Choose the correct form of the verb: (Question 115)?,Option A,Option B,Option C,Option D,C
+ENG116,English,,Easy,Choose the correct option to complete the sentence: (Question 116)?,Option A,Option B,Option C,Option D,C
+ENG117,English,,Easy,Identify the correct synonym of the given word: (Question 117)?,Option A,Option B,Option C,Option D,C
+ENG118,English,,Easy,Choose the correct antonym of the given word: (Question 118)?,Option A,Option B,Option C,Option D,C
+ENG119,English,,Easy,Select the grammatically correct sentence: (Question 119)?,Option A,Option B,Option C,Option D,B
+ENG120,English,,Easy,Choose the correct form of the verb: (Question 120)?,Option A,Option B,Option C,Option D,C
+ENG121,English,,Easy,Choose the correct option to complete the sentence: (Question 121)?,Option A,Option B,Option C,Option D,C
+ENG122,English,,Easy,Identify the correct synonym of the given word: (Question 122)?,Option A,Option B,Option C,Option D,A
+ENG123,English,,Easy,Choose the correct antonym of the given word: (Question 123)?,Option A,Option B,Option C,Option D,D
+ENG124,English,,Easy,Select the grammatically correct sentence: (Question 124)?,Option A,Option B,Option C,Option D,B
+ENG125,English,,Easy,Choose the correct form of the verb: (Question 125)?,Option A,Option B,Option C,Option D,A
+ENG126,English,,Easy,Choose the correct option to complete the sentence: (Question 126)?,Option A,Option B,Option C,Option D,C
+ENG127,English,,Easy,Identify the correct synonym of the given word: (Question 127)?,Option A,Option B,Option C,Option D,D
+ENG128,English,,Easy,Choose the correct antonym of the given word: (Question 128)?,Option A,Option B,Option C,Option D,A
+ENG129,English,,Easy,Select the grammatically correct sentence: (Question 129)?,Option A,Option B,Option C,Option D,D
+ENG130,English,,Easy,Choose the correct form of the verb: (Question 130)?,Option A,Option B,Option C,Option D,D
+ENG131,English,,Easy,Choose the correct option to complete the sentence: (Question 131)?,Option A,Option B,Option C,Option D,C
+ENG132,English,,Easy,Identify the correct synonym of the given word: (Question 132)?,Option A,Option B,Option C,Option D,B
+ENG133,English,,Easy,Choose the correct antonym of the given word: (Question 133)?,Option A,Option B,Option C,Option D,B
+ENG134,English,,Easy,Select the grammatically correct sentence: (Question 134)?,Option A,Option B,Option C,Option D,D
+ENG135,English,,Easy,Choose the correct form of the verb: (Question 135)?,Option A,Option B,Option C,Option D,B
+ENG136,English,,Easy,Choose the correct option to complete the sentence: (Question 136)?,Option A,Option B,Option C,Option D,A
+ENG137,English,,Easy,Identify the correct synonym of the given word: (Question 137)?,Option A,Option B,Option C,Option D,B
+ENG138,English,,Easy,Choose the correct antonym of the given word: (Question 138)?,Option A,Option B,Option C,Option D,D
+ENG139,English,,Easy,Select the grammatically correct sentence: (Question 139)?,Option A,Option B,Option C,Option D,C
+ENG140,English,,Easy,Choose the correct form of the verb: (Question 140)?,Option A,Option B,Option C,Option D,D
+ENG141,English,,Easy,Choose the correct option to complete the sentence: (Question 141)?,Option A,Option B,Option C,Option D,C
+ENG142,English,,Easy,Identify the correct synonym of the given word: (Question 142)?,Option A,Option B,Option C,Option D,C
+ENG143,English,,Easy,Choose the correct antonym of the given word: (Question 143)?,Option A,Option B,Option C,Option D,C
+ENG144,English,,Easy,Select the grammatically correct sentence: (Question 144)?,Option A,Option B,Option C,Option D,B
+ENG145,English,,Easy,Choose the correct form of the verb: (Question 145)?,Option A,Option B,Option C,Option D,D
+ENG146,English,,Easy,Choose the correct option to complete the sentence: (Question 146)?,Option A,Option B,Option C,Option D,D
+ENG147,English,,Easy,Identify the correct synonym of the given word: (Question 147)?,Option A,Option B,Option C,Option D,C
+ENG148,English,,Easy,Choose the correct antonym of the given word: (Question 148)?,Option A,Option B,Option C,Option D,B
+ENG149,English,,Easy,Select the grammatically correct sentence: (Question 149)?,Option A,Option B,Option C,Option D,B
+ENG150,English,,Easy,Choose the correct form of the verb: (Question 150)?,Option A,Option B,Option C,Option D,C
+ENG151,English,,Easy,Choose the correct option to complete the sentence: (Question 151)?,Option A,Option B,Option C,Option D,C
+ENG152,English,,Easy,Identify the correct synonym of the given word: (Question 152)?,Option A,Option B,Option C,Option D,A
+ENG153,English,,Easy,Choose the correct antonym of the given word: (Question 153)?,Option A,Option B,Option C,Option D,D
+ENG154,English,,Easy,Select the grammatically correct sentence: (Question 154)?,Option A,Option B,Option C,Option D,A
+ENG155,English,,Easy,Choose the correct form of the verb: (Question 155)?,Option A,Option B,Option C,Option D,A
+ENG156,English,,Easy,Choose the correct option to complete the sentence: (Question 156)?,Option A,Option B,Option C,Option D,D
+ENG157,English,,Easy,Identify the correct synonym of the given word: (Question 157)?,Option A,Option B,Option C,Option D,C
+ENG158,English,,Easy,Choose the correct antonym of the given word: (Question 158)?,Option A,Option B,Option C,Option D,C
+ENG159,English,,Easy,Select the grammatically correct sentence: (Question 159)?,Option A,Option B,Option C,Option D,C
+ENG160,English,,Easy,Choose the correct form of the verb: (Question 160)?,Option A,Option B,Option C,Option D,D
+ENG161,English,,Easy,Choose the correct option to complete the sentence: (Question 161)?,Option A,Option B,Option C,Option D,A
+ENG162,English,,Easy,Identify the correct synonym of the given word: (Question 162)?,Option A,Option B,Option C,Option D,C
+ENG163,English,,Easy,Choose the correct antonym of the given word: (Question 163)?,Option A,Option B,Option C,Option D,A
+ENG164,English,,Easy,Select the grammatically correct sentence: (Question 164)?,Option A,Option B,Option C,Option D,B
+ENG165,English,,Easy,Choose the correct form of the verb: (Question 165)?,Option A,Option B,Option C,Option D,A
+ENG166,English,,Medium,Identify the part of the sentence that contains an error: (Question 1)?,Option A,Option B,Option C,Option D,C
+ENG167,English,,Medium,Choose the best alternative to improve the underlined part of the sentence: (Question 2)?,Option A,Option B,Option C,Option D,D
+ENG168,English,,Medium,Select the sentence that conveys the same meaning: (Question 3)?,Option A,Option B,Option C,Option D,B
+ENG169,English,,Medium,Choose the correct indirect form of the given sentence: (Question 4)?,Option A,Option B,Option C,Option D,A
+ENG170,English,,Medium,Choose the correct active/passive voice form: (Question 5)?,Option A,Option B,Option C,Option D,A
+ENG171,English,,Medium,Identify the part of the sentence that contains an error: (Question 6)?,Option A,Option B,Option C,Option D,B
+ENG172,English,,Medium,Choose the best alternative to improve the underlined part of the sentence: (Question 7)?,Option A,Option B,Option C,Option D,B
+ENG173,English,,Medium,Select the sentence that conveys the same meaning: (Question 8)?,Option A,Option B,Option C,Option D,C
+ENG174,English,,Medium,Choose the correct indirect form of the given sentence: (Question 9)?,Option A,Option B,Option C,Option D,B
+ENG175,English,,Medium,Choose the correct active/passive voice form: (Question 10)?,Option A,Option B,Option C,Option D,C
+ENG176,English,,Medium,Identify the part of the sentence that contains an error: (Question 11)?,Option A,Option B,Option C,Option D,A
+ENG177,English,,Medium,Choose the best alternative to improve the underlined part of the sentence: (Question 12)?,Option A,Option B,Option C,Option D,D
+ENG178,English,,Medium,Select the sentence that conveys the same meaning: (Question 13)?,Option A,Option B,Option C,Option D,C
+ENG179,English,,Medium,Choose the correct indirect form of the given sentence: (Question 14)?,Option A,Option B,Option C,Option D,A
+ENG180,English,,Medium,Choose the correct active/passive voice form: (Question 15)?,Option A,Option B,Option C,Option D,B
+ENG181,English,,Medium,Identify the part of the sentence that contains an error: (Question 16)?,Option A,Option B,Option C,Option D,D
+ENG182,English,,Medium,Choose the best alternative to improve the underlined part of the sentence: (Question 17)?,Option A,Option B,Option C,Option D,A
+ENG183,English,,Medium,Select the sentence that conveys the same meaning: (Question 18)?,Option A,Option B,Option C,Option D,B
+ENG184,English,,Medium,Choose the correct indirect form of the given sentence: (Question 19)?,Option A,Option B,Option C,Option D,D
+ENG185,English,,Medium,Choose the correct active/passive voice form: (Question 20)?,Option A,Option B,Option C,Option D,B
+ENG186,English,,Medium,Identify the part of the sentence that contains an error: (Question 21)?,Option A,Option B,Option C,Option D,C
+ENG187,English,,Medium,Choose the best alternative to improve the underlined part of the sentence: (Question 22)?,Option A,Option B,Option C,Option D,D
+ENG188,English,,Medium,Select the sentence that conveys the same meaning: (Question 23)?,Option A,Option B,Option C,Option D,C
+ENG189,English,,Medium,Choose the correct indirect form of the given sentence: (Question 24)?,Option A,Option B,Option C,Option D,D
+ENG190,English,,Medium,Choose the correct active/passive voice form: (Question 25)?,Option A,Option B,Option C,Option D,B
+ENG191,English,,Medium,Identify the part of the sentence that contains an error: (Question 26)?,Option A,Option B,Option C,Option D,C
+ENG192,English,,Medium,Choose the best alternative to improve the underlined part of the sentence: (Question 27)?,Option A,Option B,Option C,Option D,B
+ENG193,English,,Medium,Select the sentence that conveys the same meaning: (Question 28)?,Option A,Option B,Option C,Option D,A
+ENG194,English,,Medium,Choose the correct indirect form of the given sentence: (Question 29)?,Option A,Option B,Option C,Option D,B
+ENG195,English,,Medium,Choose the correct active/passive voice form: (Question 30)?,Option A,Option B,Option C,Option D,D
+ENG196,English,,Medium,Identify the part of the sentence that contains an error: (Question 31)?,Option A,Option B,Option C,Option D,D
+ENG197,English,,Medium,Choose the best alternative to improve the underlined part of the sentence: (Question 32)?,Option A,Option B,Option C,Option D,D
+ENG198,English,,Medium,Select the sentence that conveys the same meaning: (Question 33)?,Option A,Option B,Option C,Option D,C
+ENG199,English,,Medium,Choose the correct indirect form of the given sentence: (Question 34)?,Option A,Option B,Option C,Option D,B
+ENG200,English,,Medium,Choose the correct active/passive voice form: (Question 35)?,Option A,Option B,Option C,Option D,B
+ENG201,English,,Medium,Identify the part of the sentence that contains an error: (Question 36)?,Option A,Option B,Option C,Option D,D
+ENG202,English,,Medium,Choose the best alternative to improve the underlined part of the sentence: (Question 37)?,Option A,Option B,Option C,Option D,C
+ENG203,English,,Medium,Select the sentence that conveys the same meaning: (Question 38)?,Option A,Option B,Option C,Option D,D
+ENG204,English,,Medium,Choose the correct indirect form of the given sentence: (Question 39)?,Option A,Option B,Option C,Option D,C
+ENG205,English,,Medium,Choose the correct active/passive voice form: (Question 40)?,Option A,Option B,Option C,Option D,C
+ENG206,English,,Medium,Identify the part of the sentence that contains an error: (Question 41)?,Option A,Option B,Option C,Option D,B
+ENG207,English,,Medium,Choose the best alternative to improve the underlined part of the sentence: (Question 42)?,Option A,Option B,Option C,Option D,B
+ENG208,English,,Medium,Select the sentence that conveys the same meaning: (Question 43)?,Option A,Option B,Option C,Option D,D
+ENG209,English,,Medium,Choose the correct indirect form of the given sentence: (Question 44)?,Option A,Option B,Option C,Option D,B
+ENG210,English,,Medium,Choose the correct active/passive voice form: (Question 45)?,Option A,Option B,Option C,Option D,D
+ENG211,English,,Medium,Identify the part of the sentence that contains an error: (Question 46)?,Option A,Option B,Option C,Option D,B
+ENG212,English,,Medium,Choose the best alternative to improve the underlined part of the sentence: (Question 47)?,Option A,Option B,Option C,Option D,A
+ENG213,English,,Medium,Select the sentence that conveys the same meaning: (Question 48)?,Option A,Option B,Option C,Option D,B
+ENG214,English,,Medium,Choose the correct indirect form of the given sentence: (Question 49)?,Option A,Option B,Option C,Option D,C
+ENG215,English,,Medium,Choose the correct active/passive voice form: (Question 50)?,Option A,Option B,Option C,Option D,D
+ENG216,English,,Medium,Identify the part of the sentence that contains an error: (Question 51)?,Option A,Option B,Option C,Option D,C
+ENG217,English,,Medium,Choose the best alternative to improve the underlined part of the sentence: (Question 52)?,Option A,Option B,Option C,Option D,D
+ENG218,English,,Medium,Select the sentence that conveys the same meaning: (Question 53)?,Option A,Option B,Option C,Option D,C
+ENG219,English,,Medium,Choose the correct indirect form of the given sentence: (Question 54)?,Option A,Option B,Option C,Option D,D
+ENG220,English,,Medium,Choose the correct active/passive voice form: (Question 55)?,Option A,Option B,Option C,Option D,A
+ENG221,English,,Medium,Identify the part of the sentence that contains an error: (Question 56)?,Option A,Option B,Option C,Option D,B
+ENG222,English,,Medium,Choose the best alternative to improve the underlined part of the sentence: (Question 57)?,Option A,Option B,Option C,Option D,C
+ENG223,English,,Medium,Select the sentence that conveys the same meaning: (Question 58)?,Option A,Option B,Option C,Option D,A
+ENG224,English,,Medium,Choose the correct indirect form of the given sentence: (Question 59)?,Option A,Option B,Option C,Option D,C
+ENG225,English,,Medium,Choose the correct active/passive voice form: (Question 60)?,Option A,Option B,Option C,Option D,A
+ENG226,English,,Medium,Identify the part of the sentence that contains an error: (Question 61)?,Option A,Option B,Option C,Option D,B
+ENG227,English,,Medium,Choose the best alternative to improve the underlined part of the sentence: (Question 62)?,Option A,Option B,Option C,Option D,C
+ENG228,English,,Medium,Select the sentence that conveys the same meaning: (Question 63)?,Option A,Option B,Option C,Option D,A
+ENG229,English,,Medium,Choose the correct indirect form of the given sentence: (Question 64)?,Option A,Option B,Option C,Option D,D
+ENG230,English,,Medium,Choose the correct active/passive voice form: (Question 65)?,Option A,Option B,Option C,Option D,A
+ENG231,English,,Medium,Identify the part of the sentence that contains an error: (Question 66)?,Option A,Option B,Option C,Option D,C
+ENG232,English,,Medium,Choose the best alternative to improve the underlined part of the sentence: (Question 67)?,Option A,Option B,Option C,Option D,D
+ENG233,English,,Medium,Select the sentence that conveys the same meaning: (Question 68)?,Option A,Option B,Option C,Option D,A
+ENG234,English,,Medium,Choose the correct indirect form of the given sentence: (Question 69)?,Option A,Option B,Option C,Option D,A
+ENG235,English,,Medium,Choose the correct active/passive voice form: (Question 70)?,Option A,Option B,Option C,Option D,D
+ENG236,English,,Medium,Identify the part of the sentence that contains an error: (Question 71)?,Option A,Option B,Option C,Option D,A
+ENG237,English,,Medium,Choose the best alternative to improve the underlined part of the sentence: (Question 72)?,Option A,Option B,Option C,Option D,A
+ENG238,English,,Medium,Select the sentence that conveys the same meaning: (Question 73)?,Option A,Option B,Option C,Option D,A
+ENG239,English,,Medium,Choose the correct indirect form of the given sentence: (Question 74)?,Option A,Option B,Option C,Option D,A
+ENG240,English,,Medium,Choose the correct active/passive voice form: (Question 75)?,Option A,Option B,Option C,Option D,B
+ENG241,English,,Medium,Identify the part of the sentence that contains an error: (Question 76)?,Option A,Option B,Option C,Option D,B
+ENG242,English,,Medium,Choose the best alternative to improve the underlined part of the sentence: (Question 77)?,Option A,Option B,Option C,Option D,D
+ENG243,English,,Medium,Select the sentence that conveys the same meaning: (Question 78)?,Option A,Option B,Option C,Option D,C
+ENG244,English,,Medium,Choose the correct indirect form of the given sentence: (Question 79)?,Option A,Option B,Option C,Option D,B
+ENG245,English,,Medium,Choose the correct active/passive voice form: (Question 80)?,Option A,Option B,Option C,Option D,C
+ENG246,English,,Medium,Identify the part of the sentence that contains an error: (Question 81)?,Option A,Option B,Option C,Option D,D
+ENG247,English,,Medium,Choose the best alternative to improve the underlined part of the sentence: (Question 82)?,Option A,Option B,Option C,Option D,D
+ENG248,English,,Medium,Select the sentence that conveys the same meaning: (Question 83)?,Option A,Option B,Option C,Option D,B
+ENG249,English,,Medium,Choose the correct indirect form of the given sentence: (Question 84)?,Option A,Option B,Option C,Option D,C
+ENG250,English,,Medium,Choose the correct active/passive voice form: (Question 85)?,Option A,Option B,Option C,Option D,C
+ENG251,English,,Medium,Identify the part of the sentence that contains an error: (Question 86)?,Option A,Option B,Option C,Option D,D
+ENG252,English,,Medium,Choose the best alternative to improve the underlined part of the sentence: (Question 87)?,Option A,Option B,Option C,Option D,A
+ENG253,English,,Medium,Select the sentence that conveys the same meaning: (Question 88)?,Option A,Option B,Option C,Option D,D
+ENG254,English,,Medium,Choose the correct indirect form of the given sentence: (Question 89)?,Option A,Option B,Option C,Option D,D
+ENG255,English,,Medium,Choose the correct active/passive voice form: (Question 90)?,Option A,Option B,Option C,Option D,D
+ENG256,English,,Medium,Identify the part of the sentence that contains an error: (Question 91)?,Option A,Option B,Option C,Option D,D
+ENG257,English,,Medium,Choose the best alternative to improve the underlined part of the sentence: (Question 92)?,Option A,Option B,Option C,Option D,A
+ENG258,English,,Medium,Select the sentence that conveys the same meaning: (Question 93)?,Option A,Option B,Option C,Option D,C
+ENG259,English,,Medium,Choose the correct indirect form of the given sentence: (Question 94)?,Option A,Option B,Option C,Option D,A
+ENG260,English,,Medium,Choose the correct active/passive voice form: (Question 95)?,Option A,Option B,Option C,Option D,A
+ENG261,English,,Medium,Identify the part of the sentence that contains an error: (Question 96)?,Option A,Option B,Option C,Option D,C
+ENG262,English,,Medium,Choose the best alternative to improve the underlined part of the sentence: (Question 97)?,Option A,Option B,Option C,Option D,D
+ENG263,English,,Medium,Select the sentence that conveys the same meaning: (Question 98)?,Option A,Option B,Option C,Option D,A
+ENG264,English,,Medium,Choose the correct indirect form of the given sentence: (Question 99)?,Option A,Option B,Option C,Option D,B
+ENG265,English,,Medium,Choose the correct active/passive voice form: (Question 100)?,Option A,Option B,Option C,Option D,A
+ENG266,English,,Medium,Identify the part of the sentence that contains an error: (Question 101)?,Option A,Option B,Option C,Option D,B
+ENG267,English,,Medium,Choose the best alternative to improve the underlined part of the sentence: (Question 102)?,Option A,Option B,Option C,Option D,B
+ENG268,English,,Medium,Select the sentence that conveys the same meaning: (Question 103)?,Option A,Option B,Option C,Option D,A
+ENG269,English,,Medium,Choose the correct indirect form of the given sentence: (Question 104)?,Option A,Option B,Option C,Option D,C
+ENG270,English,,Medium,Choose the correct active/passive voice form: (Question 105)?,Option A,Option B,Option C,Option D,A
+ENG271,English,,Medium,Identify the part of the sentence that contains an error: (Question 106)?,Option A,Option B,Option C,Option D,C
+ENG272,English,,Medium,Choose the best alternative to improve the underlined part of the sentence: (Question 107)?,Option A,Option B,Option C,Option D,B
+ENG273,English,,Medium,Select the sentence that conveys the same meaning: (Question 108)?,Option A,Option B,Option C,Option D,C
+ENG274,English,,Medium,Choose the correct indirect form of the given sentence: (Question 109)?,Option A,Option B,Option C,Option D,B
+ENG275,English,,Medium,Choose the correct active/passive voice form: (Question 110)?,Option A,Option B,Option C,Option D,A
+ENG276,English,,Medium,Identify the part of the sentence that contains an error: (Question 111)?,Option A,Option B,Option C,Option D,C
+ENG277,English,,Medium,Choose the best alternative to improve the underlined part of the sentence: (Question 112)?,Option A,Option B,Option C,Option D,C
+ENG278,English,,Medium,Select the sentence that conveys the same meaning: (Question 113)?,Option A,Option B,Option C,Option D,C
+ENG279,English,,Medium,Choose the correct indirect form of the given sentence: (Question 114)?,Option A,Option B,Option C,Option D,C
+ENG280,English,,Medium,Choose the correct active/passive voice form: (Question 115)?,Option A,Option B,Option C,Option D,A
+ENG281,English,,Medium,Identify the part of the sentence that contains an error: (Question 116)?,Option A,Option B,Option C,Option D,C
+ENG282,English,,Medium,Choose the best alternative to improve the underlined part of the sentence: (Question 117)?,Option A,Option B,Option C,Option D,A
+ENG283,English,,Medium,Select the sentence that conveys the same meaning: (Question 118)?,Option A,Option B,Option C,Option D,D
+ENG284,English,,Medium,Choose the correct indirect form of the given sentence: (Question 119)?,Option A,Option B,Option C,Option D,B
+ENG285,English,,Medium,Choose the correct active/passive voice form: (Question 120)?,Option A,Option B,Option C,Option D,A
+ENG286,English,,Medium,Identify the part of the sentence that contains an error: (Question 121)?,Option A,Option B,Option C,Option D,B
+ENG287,English,,Medium,Choose the best alternative to improve the underlined part of the sentence: (Question 122)?,Option A,Option B,Option C,Option D,A
+ENG288,English,,Medium,Select the sentence that conveys the same meaning: (Question 123)?,Option A,Option B,Option C,Option D,C
+ENG289,English,,Medium,Choose the correct indirect form of the given sentence: (Question 124)?,Option A,Option B,Option C,Option D,A
+ENG290,English,,Medium,Choose the correct active/passive voice form: (Question 125)?,Option A,Option B,Option C,Option D,B
+ENG291,English,,Medium,Identify the part of the sentence that contains an error: (Question 126)?,Option A,Option B,Option C,Option D,A
+ENG292,English,,Medium,Choose the best alternative to improve the underlined part of the sentence: (Question 127)?,Option A,Option B,Option C,Option D,B
+ENG293,English,,Medium,Select the sentence that conveys the same meaning: (Question 128)?,Option A,Option B,Option C,Option D,D
+ENG294,English,,Medium,Choose the correct indirect form of the given sentence: (Question 129)?,Option A,Option B,Option C,Option D,C
+ENG295,English,,Medium,Choose the correct active/passive voice form: (Question 130)?,Option A,Option B,Option C,Option D,D
+ENG296,English,,Medium,Identify the part of the sentence that contains an error: (Question 131)?,Option A,Option B,Option C,Option D,A
+ENG297,English,,Medium,Choose the best alternative to improve the underlined part of the sentence: (Question 132)?,Option A,Option B,Option C,Option D,D
+ENG298,English,,Medium,Select the sentence that conveys the same meaning: (Question 133)?,Option A,Option B,Option C,Option D,C
+ENG299,English,,Medium,Choose the correct indirect form of the given sentence: (Question 134)?,Option A,Option B,Option C,Option D,A
+ENG300,English,,Medium,Choose the correct active/passive voice form: (Question 135)?,Option A,Option B,Option C,Option D,C
+ENG301,English,,Medium,Identify the part of the sentence that contains an error: (Question 136)?,Option A,Option B,Option C,Option D,D
+ENG302,English,,Medium,Choose the best alternative to improve the underlined part of the sentence: (Question 137)?,Option A,Option B,Option C,Option D,D
+ENG303,English,,Medium,Select the sentence that conveys the same meaning: (Question 138)?,Option A,Option B,Option C,Option D,A
+ENG304,English,,Medium,Choose the correct indirect form of the given sentence: (Question 139)?,Option A,Option B,Option C,Option D,A
+ENG305,English,,Medium,Choose the correct active/passive voice form: (Question 140)?,Option A,Option B,Option C,Option D,A
+ENG306,English,,Medium,Identify the part of the sentence that contains an error: (Question 141)?,Option A,Option B,Option C,Option D,A
+ENG307,English,,Medium,Choose the best alternative to improve the underlined part of the sentence: (Question 142)?,Option A,Option B,Option C,Option D,B
+ENG308,English,,Medium,Select the sentence that conveys the same meaning: (Question 143)?,Option A,Option B,Option C,Option D,A
+ENG309,English,,Medium,Choose the correct indirect form of the given sentence: (Question 144)?,Option A,Option B,Option C,Option D,A
+ENG310,English,,Medium,Choose the correct active/passive voice form: (Question 145)?,Option A,Option B,Option C,Option D,B
+ENG311,English,,Medium,Identify the part of the sentence that contains an error: (Question 146)?,Option A,Option B,Option C,Option D,C
+ENG312,English,,Medium,Choose the best alternative to improve the underlined part of the sentence: (Question 147)?,Option A,Option B,Option C,Option D,C
+ENG313,English,,Medium,Select the sentence that conveys the same meaning: (Question 148)?,Option A,Option B,Option C,Option D,A
+ENG314,English,,Medium,Choose the correct indirect form of the given sentence: (Question 149)?,Option A,Option B,Option C,Option D,A
+ENG315,English,,Medium,Choose the correct active/passive voice form: (Question 150)?,Option A,Option B,Option C,Option D,D
+ENG316,English,,Medium,Identify the part of the sentence that contains an error: (Question 151)?,Option A,Option B,Option C,Option D,D
+ENG317,English,,Medium,Choose the best alternative to improve the underlined part of the sentence: (Question 152)?,Option A,Option B,Option C,Option D,B
+ENG318,English,,Medium,Select the sentence that conveys the same meaning: (Question 153)?,Option A,Option B,Option C,Option D,D
+ENG319,English,,Medium,Choose the correct indirect form of the given sentence: (Question 154)?,Option A,Option B,Option C,Option D,B
+ENG320,English,,Medium,Choose the correct active/passive voice form: (Question 155)?,Option A,Option B,Option C,Option D,A
+ENG321,English,,Medium,Identify the part of the sentence that contains an error: (Question 156)?,Option A,Option B,Option C,Option D,D
+ENG322,English,,Medium,Choose the best alternative to improve the underlined part of the sentence: (Question 157)?,Option A,Option B,Option C,Option D,D
+ENG323,English,,Medium,Select the sentence that conveys the same meaning: (Question 158)?,Option A,Option B,Option C,Option D,D
+ENG324,English,,Medium,Choose the correct indirect form of the given sentence: (Question 159)?,Option A,Option B,Option C,Option D,B
+ENG325,English,,Medium,Choose the correct active/passive voice form: (Question 160)?,Option A,Option B,Option C,Option D,D
+ENG326,English,,Medium,Identify the part of the sentence that contains an error: (Question 161)?,Option A,Option B,Option C,Option D,B
+ENG327,English,,Medium,Choose the best alternative to improve the underlined part of the sentence: (Question 162)?,Option A,Option B,Option C,Option D,B
+ENG328,English,,Medium,Select the sentence that conveys the same meaning: (Question 163)?,Option A,Option B,Option C,Option D,A
+ENG329,English,,Medium,Choose the correct indirect form of the given sentence: (Question 164)?,Option A,Option B,Option C,Option D,A
+ENG330,English,,Medium,Choose the correct active/passive voice form: (Question 165)?,Option A,Option B,Option C,Option D,B
+ENG331,English,,Hard,Choose the most appropriate option based on the sentence.,Option A,Option B,Option C,Option D,B
+ENG332,English,,Hard,Choose the statement that can be inferred from the passage: (Question 2)?,Option A,Option B,Option C,Option D,B
+ENG333,English,,Hard,Choose the correct option.,Option A,Option B,Option C,Option D,C
+ENG334,English,,Hard,Choose the option that best summarizes the passage: (Question 4)?,Option A,Option B,Option C,Option D,B
+ENG335,English,,Hard,Identify the correct usage of the word in context: (Question 5)?,Option A,Option B,Option C,Option D,B
+ENG336,English,,Hard,Choose the most appropriate option based on the sentence.,Option A,Option B,Option C,Option D,B
+ENG337,English,,Hard,Choose the statement that can be inferred from the passage: (Question 7)?,Option A,Option B,Option C,Option D,C
+ENG338,English,,Hard,Choose the correct option.,Option A,Option B,Option C,Option D,A
+ENG339,English,,Hard,Choose the option that best summarizes the passage: (Question 9)?,Option A,Option B,Option C,Option D,C
+ENG340,English,,Hard,Identify the correct usage of the word in context: (Question 10)?,Option A,Option B,Option C,Option D,C
+ENG341,English,,Hard,Choose the most appropriate option based on the sentence.,Option A,Option B,Option C,Option D,C
+ENG342,English,,Hard,Choose the statement that can be inferred from the passage: (Question 12)?,Option A,Option B,Option C,Option D,C
+ENG343,English,,Hard,Choose the correct option.,Option A,Option B,Option C,Option D,A
+ENG344,English,,Hard,Choose the option that best summarizes the passage: (Question 14)?,Option A,Option B,Option C,Option D,A
+ENG345,English,,Hard,Identify the correct usage of the word in context: (Question 15)?,Option A,Option B,Option C,Option D,B
+ENG346,English,,Hard,Choose the most appropriate option based on the sentence.,Option A,Option B,Option C,Option D,C
+ENG347,English,,Hard,Choose the statement that can be inferred from the passage: (Question 17)?,Option A,Option B,Option C,Option D,C
+ENG348,English,,Hard,Choose the correct option.,Option A,Option B,Option C,Option D,A
+ENG349,English,,Hard,Choose the option that best summarizes the passage: (Question 19)?,Option A,Option B,Option C,Option D,D
+ENG350,English,,Hard,Identify the correct usage of the word in context: (Question 20)?,Option A,Option B,Option C,Option D,C
+ENG351,English,,Hard,Choose the most appropriate option based on the sentence.,Option A,Option B,Option C,Option D,A
+ENG352,English,,Hard,Choose the statement that can be inferred from the passage: (Question 22)?,Option A,Option B,Option C,Option D,D
+ENG353,English,,Hard,Choose the correct option.,Option A,Option B,Option C,Option D,C
+ENG354,English,,Hard,Choose the option that best summarizes the passage: (Question 24)?,Option A,Option B,Option C,Option D,A
+ENG355,English,,Hard,Identify the correct usage of the word in context: (Question 25)?,Option A,Option B,Option C,Option D,B
+ENG356,English,,Hard,Choose the most appropriate option based on the sentence.,Option A,Option B,Option C,Option D,A
+ENG357,English,,Hard,Choose the statement that can be inferred from the passage: (Question 27)?,Option A,Option B,Option C,Option D,A
+ENG358,English,,Hard,Choose the correct option.,Option A,Option B,Option C,Option D,B
+ENG359,English,,Hard,Choose the option that best summarizes the passage: (Question 29)?,Option A,Option B,Option C,Option D,D
+ENG360,English,,Hard,Identify the correct usage of the word in context: (Question 30)?,Option A,Option B,Option C,Option D,A
+ENG361,English,,Hard,Choose the most appropriate option based on the sentence.,Option A,Option B,Option C,Option D,B
+ENG362,English,,Hard,Choose the statement that can be inferred from the passage: (Question 32)?,Option A,Option B,Option C,Option D,B
+ENG363,English,,Hard,Choose the correct option.,Option A,Option B,Option C,Option D,D
+ENG364,English,,Hard,Choose the option that best summarizes the passage: (Question 34)?,Option A,Option B,Option C,Option D,D
+ENG365,English,,Hard,Identify the correct usage of the word in context: (Question 35)?,Option A,Option B,Option C,Option D,B
+ENG366,English,,Hard,Choose the most appropriate option based on the sentence.,Option A,Option B,Option C,Option D,B
+ENG367,English,,Hard,Choose the statement that can be inferred from the passage: (Question 37)?,Option A,Option B,Option C,Option D,B
+ENG368,English,,Hard,Choose the correct option.,Option A,Option B,Option C,Option D,D
+ENG369,English,,Hard,Choose the option that best summarizes the passage: (Question 39)?,Option A,Option B,Option C,Option D,B
+ENG370,English,,Hard,Identify the correct usage of the word in context: (Question 40)?,Option A,Option B,Option C,Option D,B
+ENG371,English,,Hard,Choose the most appropriate option based on the sentence.,Option A,Option B,Option C,Option D,C
+ENG372,English,,Hard,Choose the statement that can be inferred from the passage: (Question 42)?,Option A,Option B,Option C,Option D,A
+ENG373,English,,Hard,Choose the correct option.,Option A,Option B,Option C,Option D,A
+ENG374,English,,Hard,Choose the option that best summarizes the passage: (Question 44)?,Option A,Option B,Option C,Option D,C
+ENG375,English,,Hard,Identify the correct usage of the word in context: (Question 45)?,Option A,Option B,Option C,Option D,B
+ENG376,English,,Hard,Choose the most appropriate option based on the sentence.,Option A,Option B,Option C,Option D,B
+ENG377,English,,Hard,Choose the statement that can be inferred from the passage: (Question 47)?,Option A,Option B,Option C,Option D,D
+ENG378,English,,Hard,Choose the correct option.,Option A,Option B,Option C,Option D,D
+ENG379,English,,Hard,Choose the option that best summarizes the passage: (Question 49)?,Option A,Option B,Option C,Option D,C
+ENG380,English,,Hard,Identify the correct usage of the word in context: (Question 50)?,Option A,Option B,Option C,Option D,A
+ENG381,English,,Hard,Choose the most appropriate option based on the sentence.,Option A,Option B,Option C,Option D,C
+ENG382,English,,Hard,Choose the statement that can be inferred from the passage: (Question 52)?,Option A,Option B,Option C,Option D,B
+ENG383,English,,Hard,Choose the correct option.,Option A,Option B,Option C,Option D,D
+ENG384,English,,Hard,Choose the option that best summarizes the passage: (Question 54)?,Option A,Option B,Option C,Option D,D
+ENG385,English,,Hard,Identify the correct usage of the word in context: (Question 55)?,Option A,Option B,Option C,Option D,C
+ENG386,English,,Hard,Choose the most appropriate option based on the sentence.,Option A,Option B,Option C,Option D,B
+ENG387,English,,Hard,Choose the statement that can be inferred from the passage: (Question 57)?,Option A,Option B,Option C,Option D,B
+ENG388,English,,Hard,Choose the correct option.,Option A,Option B,Option C,Option D,C
+ENG389,English,,Hard,Choose the option that best summarizes the passage: (Question 59)?,Option A,Option B,Option C,Option D,D
+ENG390,English,,Hard,Identify the correct usage of the word in context: (Question 60)?,Option A,Option B,Option C,Option D,D
+ENG391,English,,Hard,Choose the most appropriate option based on the sentence.,Option A,Option B,Option C,Option D,D
+ENG392,English,,Hard,Choose the statement that can be inferred from the passage: (Question 62)?,Option A,Option B,Option C,Option D,A
+ENG393,English,,Hard,Choose the correct option.,Option A,Option B,Option C,Option D,C
+ENG394,English,,Hard,Choose the option that best summarizes the passage: (Question 64)?,Option A,Option B,Option C,Option D,C
+ENG395,English,,Hard,Identify the correct usage of the word in context: (Question 65)?,Option A,Option B,Option C,Option D,C
+ENG396,English,,Hard,Choose the most appropriate option based on the sentence.,Option A,Option B,Option C,Option D,A
+ENG397,English,,Hard,Choose the statement that can be inferred from the passage: (Question 67)?,Option A,Option B,Option C,Option D,C
+ENG398,English,,Hard,Choose the correct option.,Option A,Option B,Option C,Option D,C
+ENG399,English,,Hard,Choose the option that best summarizes the passage: (Question 69)?,Option A,Option B,Option C,Option D,C
+ENG400,English,,Hard,Identify the correct usage of the word in context: (Question 70)?,Option A,Option B,Option C,Option D,C
+ENG401,English,,Hard,Choose the most appropriate option based on the sentence.,Option A,Option B,Option C,Option D,A
+ENG402,English,,Hard,Choose the statement that can be inferred from the passage: (Question 72)?,Option A,Option B,Option C,Option D,A
+ENG403,English,,Hard,Choose the correct option.,Option A,Option B,Option C,Option D,D
+ENG404,English,,Hard,Choose the option that best summarizes the passage: (Question 74)?,Option A,Option B,Option C,Option D,D
+ENG405,English,,Hard,Identify the correct usage of the word in context: (Question 75)?,Option A,Option B,Option C,Option D,C
+ENG406,English,,Hard,Choose the most appropriate option based on the sentence.,Option A,Option B,Option C,Option D,B
+ENG407,English,,Hard,Choose the statement that can be inferred from the passage: (Question 77)?,Option A,Option B,Option C,Option D,C
+ENG408,English,,Hard,Choose the correct option.,Option A,Option B,Option C,Option D,A
+ENG409,English,,Hard,Choose the option that best summarizes the passage: (Question 79)?,Option A,Option B,Option C,Option D,A
+ENG410,English,,Hard,Identify the correct usage of the word in context: (Question 80)?,Option A,Option B,Option C,Option D,D
+ENG411,English,,Hard,Choose the most appropriate option based on the sentence.,Option A,Option B,Option C,Option D,C
+ENG412,English,,Hard,Choose the statement that can be inferred from the passage: (Question 82)?,Option A,Option B,Option C,Option D,D
+ENG413,English,,Hard,Choose the correct option.,Option A,Option B,Option C,Option D,A
+ENG414,English,,Hard,Choose the option that best summarizes the passage: (Question 84)?,Option A,Option B,Option C,Option D,D
+ENG415,English,,Hard,Identify the correct usage of the word in context: (Question 85)?,Option A,Option B,Option C,Option D,B
+ENG416,English,,Hard,Choose the most appropriate option based on the sentence.,Option A,Option B,Option C,Option D,C
+ENG417,English,,Hard,Choose the statement that can be inferred from the passage: (Question 87)?,Option A,Option B,Option C,Option D,C
+ENG418,English,,Hard,Choose the correct option.,Option A,Option B,Option C,Option D,C
+ENG419,English,,Hard,Choose the option that best summarizes the passage: (Question 89)?,Option A,Option B,Option C,Option D,B
+ENG420,English,,Hard,Identify the correct usage of the word in context: (Question 90)?,Option A,Option B,Option C,Option D,B
+ENG421,English,,Hard,Choose the most appropriate option based on the sentence.,Option A,Option B,Option C,Option D,A
+ENG422,English,,Hard,Choose the statement that can be inferred from the passage: (Question 92)?,Option A,Option B,Option C,Option D,A
+ENG423,English,,Hard,Choose the correct option.,Option A,Option B,Option C,Option D,D
+ENG424,English,,Hard,Choose the option that best summarizes the passage: (Question 94)?,Option A,Option B,Option C,Option D,B
+ENG425,English,,Hard,Identify the correct usage of the word in context: (Question 95)?,Option A,Option B,Option C,Option D,D
+ENG426,English,,Hard,Choose the most appropriate option based on the sentence.,Option A,Option B,Option C,Option D,A
+ENG427,English,,Hard,Choose the statement that can be inferred from the passage: (Question 97)?,Option A,Option B,Option C,Option D,D
+ENG428,English,,Hard,Choose the correct option.,Option A,Option B,Option C,Option D,A
+ENG429,English,,Hard,Choose the option that best summarizes the passage: (Question 99)?,Option A,Option B,Option C,Option D,A
+ENG430,English,,Hard,Identify the correct usage of the word in context: (Question 100)?,Option A,Option B,Option C,Option D,B
+ENG431,English,,Hard,Choose the most appropriate option based on the sentence.,Option A,Option B,Option C,Option D,A
+ENG432,English,,Hard,Choose the statement that can be inferred from the passage: (Question 102)?,Option A,Option B,Option C,Option D,B
+ENG433,English,,Hard,Choose the correct option.,Option A,Option B,Option C,Option D,A
+ENG434,English,,Hard,Choose the option that best summarizes the passage: (Question 104)?,Option A,Option B,Option C,Option D,B
+ENG435,English,,Hard,Identify the correct usage of the word in context: (Question 105)?,Option A,Option B,Option C,Option D,C
+ENG436,English,,Hard,Choose the most appropriate option based on the sentence.,Option A,Option B,Option C,Option D,C
+ENG437,English,,Hard,Choose the statement that can be inferred from the passage: (Question 107)?,Option A,Option B,Option C,Option D,C
+ENG438,English,,Hard,Choose the correct option.,Option A,Option B,Option C,Option D,B
+ENG439,English,,Hard,Choose the option that best summarizes the passage: (Question 109)?,Option A,Option B,Option C,Option D,D
+ENG440,English,,Hard,Identify the correct usage of the word in context: (Question 110)?,Option A,Option B,Option C,Option D,C
+ENG441,English,,Hard,Choose the most appropriate option based on the sentence.,Option A,Option B,Option C,Option D,C
+ENG442,English,,Hard,Choose the statement that can be inferred from the passage: (Question 112)?,Option A,Option B,Option C,Option D,C
+ENG443,English,,Hard,Choose the correct option.,Option A,Option B,Option C,Option D,C
+ENG444,English,,Hard,Choose the option that best summarizes the passage: (Question 114)?,Option A,Option B,Option C,Option D,D
+ENG445,English,,Hard,Identify the correct usage of the word in context: (Question 115)?,Option A,Option B,Option C,Option D,D
+ENG446,English,,Hard,Choose the most appropriate option based on the sentence.,Option A,Option B,Option C,Option D,D
+ENG447,English,,Hard,Choose the statement that can be inferred from the passage: (Question 117)?,Option A,Option B,Option C,Option D,A
+ENG448,English,,Hard,Choose the correct option.,Option A,Option B,Option C,Option D,D
+ENG449,English,,Hard,Choose the option that best summarizes the passage: (Question 119)?,Option A,Option B,Option C,Option D,B
+ENG450,English,,Hard,Identify the correct usage of the word in context: (Question 120)?,Option A,Option B,Option C,Option D,C
+ENG451,English,,Hard,Choose the most appropriate option based on the sentence.,Option A,Option B,Option C,Option D,B
+ENG452,English,,Hard,Choose the statement that can be inferred from the passage: (Question 122)?,Option A,Option B,Option C,Option D,D
+ENG453,English,,Hard,Choose the correct option.,Option A,Option B,Option C,Option D,A
+ENG454,English,,Hard,Choose the option that best summarizes the passage: (Question 124)?,Option A,Option B,Option C,Option D,C
+ENG455,English,,Hard,Identify the correct usage of the word in context: (Question 125)?,Option A,Option B,Option C,Option D,C
+ENG456,English,,Hard,Choose the most appropriate option based on the sentence.,Option A,Option B,Option C,Option D,D
+ENG457,English,,Hard,Choose the statement that can be inferred from the passage: (Question 127)?,Option A,Option B,Option C,Option D,B
+ENG458,English,,Hard,Choose the correct option.,Option A,Option B,Option C,Option D,A
+ENG459,English,,Hard,Choose the option that best summarizes the passage: (Question 129)?,Option A,Option B,Option C,Option D,C
+ENG460,English,,Hard,Identify the correct usage of the word in context: (Question 130)?,Option A,Option B,Option C,Option D,B
+ENG461,English,,Hard,Choose the most appropriate option based on the sentence.,Option A,Option B,Option C,Option D,A
+ENG462,English,,Hard,Choose the statement that can be inferred from the passage: (Question 132)?,Option A,Option B,Option C,Option D,A
+ENG463,English,,Hard,Choose the correct option.,Option A,Option B,Option C,Option D,B
+ENG464,English,,Hard,Choose the option that best summarizes the passage: (Question 134)?,Option A,Option B,Option C,Option D,A
+ENG465,English,,Hard,Identify the correct usage of the word in context: (Question 135)?,Option A,Option B,Option C,Option D,A
+ENG466,English,,Hard,Choose the most appropriate option based on the sentence.,Option A,Option B,Option C,Option D,D
+ENG467,English,,Hard,Choose the statement that can be inferred from the passage: (Question 137)?,Option A,Option B,Option C,Option D,D
+ENG468,English,,Hard,Choose the correct option.,Option A,Option B,Option C,Option D,C
+ENG469,English,,Hard,Choose the option that best summarizes the passage: (Question 139)?,Option A,Option B,Option C,Option D,A
+ENG470,English,,Hard,Identify the correct usage of the word in context: (Question 140)?,Option A,Option B,Option C,Option D,D
+ENG471,English,,Hard,Choose the most appropriate option based on the sentence.,Option A,Option B,Option C,Option D,B
+ENG472,English,,Hard,Choose the statement that can be inferred from the passage: (Question 142)?,Option A,Option B,Option C,Option D,A
+ENG473,English,,Hard,Choose the correct option.,Option A,Option B,Option C,Option D,A
+ENG474,English,,Hard,Choose the option that best summarizes the passage: (Question 144)?,Option A,Option B,Option C,Option D,B
+ENG475,English,,Hard,Identify the correct usage of the word in context: (Question 145)?,Option A,Option B,Option C,Option D,B
+ENG476,English,,Hard,Choose the most appropriate option based on the sentence.,Option A,Option B,Option C,Option D,B
+ENG477,English,,Hard,Choose the statement that can be inferred from the passage: (Question 147)?,Option A,Option B,Option C,Option D,D
+ENG478,English,,Hard,Choose the correct option.,Option A,Option B,Option C,Option D,D
+ENG479,English,,Hard,Choose the option that best summarizes the passage: (Question 149)?,Option A,Option B,Option C,Option D,B
+ENG480,English,,Hard,Identify the correct usage of the word in context: (Question 150)?,Option A,Option B,Option C,Option D,A
+ENG481,English,,Hard,Choose the most appropriate option based on the sentence.,Option A,Option B,Option C,Option D,A
+ENG482,English,,Hard,Choose the statement that can be inferred from the passage: (Question 152)?,Option A,Option B,Option C,Option D,B
+ENG483,English,,Hard,Choose the correct option.,Option A,Option B,Option C,Option D,B
+ENG484,English,,Hard,Choose the option that best summarizes the passage: (Question 154)?,Option A,Option B,Option C,Option D,B
+ENG485,English,,Hard,Identify the correct usage of the word in context: (Question 155)?,Option A,Option B,Option C,Option D,B
+ENG486,English,,Hard,Choose the most appropriate option based on the sentence.,Option A,Option B,Option C,Option D,B
+ENG487,English,,Hard,Choose the statement that can be inferred from the passage: (Question 157)?,Option A,Option B,Option C,Option D,D
+ENG488,English,,Hard,Choose the correct option.,Option A,Option B,Option C,Option D,C
+ENG489,English,,Hard,Choose the option that best summarizes the passage: (Question 159)?,Option A,Option B,Option C,Option D,C
+ENG490,English,,Hard,Identify the correct usage of the word in context: (Question 160)?,Option A,Option B,Option C,Option D,B
+ENG491,English,,Hard,Choose the most appropriate option based on the sentence.,Option A,Option B,Option C,Option D,B
+ENG492,English,,Hard,Choose the statement that can be inferred from the passage: (Question 162)?,Option A,Option B,Option C,Option D,C
+ENG493,English,,Hard,Choose the correct option.,Option A,Option B,Option C,Option D,C
+ENG494,English,,Hard,Choose the option that best summarizes the passage: (Question 164)?,Option A,Option B,Option C,Option D,B
+ENG495,English,,Hard,Identify the correct usage of the word in context: (Question 165)?,Option A,Option B,Option C,Option D,D
