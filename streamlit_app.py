@@ -2,159 +2,170 @@ import streamlit as st
 import pandas as pd
 import time
 
-# ===================== CONFIG =====================
+# ================= CONFIG =================
 st.set_page_config(page_title="Adaptive Online Test", layout="centered")
 
-DATA_PATH = "master_adaptive_exam_1485_FINAL.xlsx"
-LEVELS = ["Easy", "Medium", "Hard"]
+DATA_PATH = "master_adaptive_exam_1485_FINAL.xls"
+LEVELS = ["Easy", "Easy-Medium", "Medium", "Medium-Hard", "Hard"]
 
-# ===================== LOAD DATA =====================
+# ================= LOAD DATA =================
 @st.cache_data
 def load_data():
     df = pd.read_excel(DATA_PATH)
-    df = df.fillna("")   # 🔥 prevent NaN issues
+    df = df.fillna("")
+
+    # Normalize columns
+    for col in ["Subject", "Concept", "Difficulty"]:
+        if col in df.columns:
+            df[col] = df[col].astype(str).str.strip()
+
     return df
 
 df = load_data()
 
-# ===================== SESSION STATE =====================
-def init_state():
-    defaults = {
-        "started": False,
-        "q_index": 0,
-        "score": 0,
-        "questions": None,
-        "start_time": None,
-        "total_time": None,
-        "difficulty": "Easy",
-        "correct_streak": 0,
-        "wrong_streak": 0
-    }
-    for k, v in defaults.items():
-        if k not in st.session_state:
-            st.session_state[k] = v
+# ================= STRICT EASY FILTER =================
+def is_truly_easy(row):
+    text = str(row["Question"]).lower()
 
-init_state()
+    # too long → not easy
+    if len(text) > 120:
+        return False
 
-# ===================== START SCREEN =====================
+    # avoid complex concepts
+    bad_words = [
+        "mixture", "alligation", "compound", "per annum",
+        "successive", "discount", "speed", "work together"
+    ]
+    if any(w in text for w in bad_words):
+        return False
+
+    # avoid large numbers
+    for token in text.split():
+        if token.isdigit() and int(token) > 100:
+            return False
+
+    return True
+
+# ================= SESSION STATE =================
+if "started" not in st.session_state:
+    st.session_state.started = False
+    st.session_state.q_index = 0
+    st.session_state.score = 0
+    st.session_state.level_index = 0
+    st.session_state.block_answers = []
+    st.session_state.used_ids = set()
+    st.session_state.used_concepts = set()
+
+# ================= START SCREEN =================
 if not st.session_state.started:
     st.title("📝 Adaptive Online Test")
 
-    subject = st.selectbox("Select Subject", ["Aptitude", "GK", "English"])
-    q_count = st.selectbox("Select Number of Questions", [30, 50, 100])
+    subject = st.selectbox(
+        "Select Subject",
+        sorted(df["Subject"].unique())
+    )
+    total_qs = st.selectbox("Number of Questions", [30, 50, 100])
 
     if st.button("Start Test"):
-        # STRICT EASY FILTER AT START
-        pool = df[
-            (df["subject"] == subject) &
-            (df["difficulty"] == "Easy")
-        ]
-
-        if len(pool) < q_count:
-            st.error("Not enough Easy questions available.")
-            st.stop()
-
-        st.session_state.questions = pool.sample(q_count).reset_index(drop=True)
         st.session_state.started = True
+        st.session_state.subject = subject
+        st.session_state.total_qs = total_qs
+        st.session_state.start_time = time.time()
+
+        # reset state
         st.session_state.q_index = 0
         st.session_state.score = 0
-        st.session_state.start_time = time.time()
-        st.session_state.total_time = q_count * 60
-        st.session_state.correct_streak = 0
-        st.session_state.wrong_streak = 0
-        st.session_state.difficulty = "Easy"
+        st.session_state.level_index = 0
+        st.session_state.block_answers = []
+        st.session_state.used_ids = set()
+        st.session_state.used_concepts = set()
 
         st.rerun()
 
-# ===================== TEST SCREEN =====================
-else:
-    q_no = st.session_state.q_index
-    questions = st.session_state.questions
+# ================= QUESTION PICKER =================
+def get_question():
+    level = LEVELS[st.session_state.level_index]
+    subject = st.session_state.subject
 
-    elapsed = int(time.time() - st.session_state.start_time)
-    remaining = st.session_state.total_time - elapsed
+    pool = df[
+        (df["Subject"] == subject) &
+        (df["Difficulty"].str.contains(level.split("-")[0], case=False))
+    ]
 
-    if remaining <= 0 or q_no >= len(questions):
+    pool = pool[~pool.index.isin(st.session_state.used_ids)]
+
+    # FIRST 3 → STRICT EASY
+    if st.session_state.q_index < 3:
+        pool = pool[pool.apply(is_truly_easy, axis=1)]
+
+    # rotate concepts
+    if st.session_state.used_concepts:
+        pool = pool[~pool["Concept"].isin(st.session_state.used_concepts)]
+
+    if pool.empty:
+        pool = df[df["Subject"] == subject]
+
+    q = pool.sample(1).iloc[0]
+    return q
+
+# ================= TEST SCREEN =================
+if st.session_state.started:
+    if st.session_state.q_index >= st.session_state.total_qs:
         st.subheader("✅ Test Completed")
-        st.write(f"Score: **{st.session_state.score} / {len(questions)}**")
-        accuracy = round((st.session_state.score / len(questions)) * 100, 2)
-        st.write(f"Accuracy: **{accuracy}%**")
-        st.write(f"Final Difficulty Level: **{st.session_state.difficulty}**")
+        st.write(f"Score: **{st.session_state.score}/{st.session_state.total_qs}**")
+        st.write(f"Final Level: **{LEVELS[st.session_state.level_index]}**")
         st.stop()
 
-    q = questions.iloc[q_no]
+    q = get_question()
+    q_id = q.name
 
-    # ===================== TIME + STATUS =====================
-    st.progress((q_no + 1) / len(questions))
-    st.write(f"⏳ Time Left: {remaining//60} min {remaining%60} sec")
-    st.info(f"🎯 Current Difficulty: {st.session_state.difficulty}")
+    st.session_state.used_ids.add(q_id)
+    st.session_state.used_concepts.add(q["Concept"])
 
-    st.subheader(f"Question {q_no + 1}")
-    st.write(q["question_text"])
+    st.info(f"Difficulty Level: {LEVELS[st.session_state.level_index]}")
+    st.subheader(f"Question {st.session_state.q_index + 1}")
+    st.write(q["Question"])
 
-    # ===================== SAFE OPTIONS =====================
     options = {
-        "A": q["option_a"] if q["option_a"] != "" else "Option not available",
-        "B": q["option_b"] if q["option_b"] != "" else "Option not available",
-        "C": q["option_c"] if q["option_c"] != "" else "Option not available",
-        "D": q["option_d"] if q["option_d"] != "" else "Option not available",
+        "A": q["Option_A"],
+        "B": q["Option_B"],
+        "C": q["Option_C"],
+        "D": q["Option_D"],
     }
 
-    # ===================== EASY-LEVEL VALIDATION =====================
-    if st.session_state.difficulty == "Easy":
-        # Skip numerically confusing options at Easy level
-        bad_easy = any(
-            str(v).isdigit() and len(str(v)) > 2
-            for v in options.values()
-        )
-        if bad_easy:
-            st.warning("⚠️ Skipping non-basic Easy question.")
-            st.session_state.q_index += 1
-            st.rerun()
-
-    # ===================== OPTION SELECTION =====================
-    radio_key = f"q_{q_no}"
+    radio_key = f"q_{st.session_state.q_index}"
 
     choice = st.radio(
         "Choose one option:",
         list(options.keys()),
         format_func=lambda x: f"{x}. {options[x]}",
-        index=None,          # 🔥 prevents auto-selection
+        index=None,
         key=radio_key
     )
 
     if st.button("Submit Answer"):
-        if choice is None:
-            st.warning("⚠️ Please select an option.")
-            st.stop()
+        correct = q["Correct_Option"]
 
-        correct = q["correct_option"]
-
-        # ===================== CHECK ANSWER =====================
         if choice == correct:
-            st.success("✅ Correct!")
+            st.success("✅ Correct")
             st.session_state.score += 1
-            st.session_state.correct_streak += 1
-            st.session_state.wrong_streak = 0
+            st.session_state.block_answers.append(True)
         else:
-            st.error(f"❌ Wrong! Correct answer: {correct}")
-            st.session_state.wrong_streak += 1
-            st.session_state.correct_streak = 0
+            st.error(f"❌ Wrong | Correct answer: {correct}")
+            st.session_state.block_answers.append(False)
 
-        # ===================== ADAPTIVE LOGIC =====================
-        idx = LEVELS.index(st.session_state.difficulty)
-
-        if st.session_state.correct_streak == 3 and idx < 2:
-            st.session_state.difficulty = LEVELS[idx + 1]
-            st.session_state.correct_streak = 0
-            st.info(f"⬆ Difficulty increased to {st.session_state.difficulty}")
-
-        if st.session_state.wrong_streak == 3 and idx > 0:
-            st.session_state.difficulty = LEVELS[idx - 1]
-            st.session_state.wrong_streak = 0
-            st.info(f"⬇ Difficulty decreased to {st.session_state.difficulty}")
-
-        # ===================== NEXT QUESTION =====================
         st.session_state.q_index += 1
-        del st.session_state[radio_key]
+
+        # ---- 3 QUESTION ADAPTIVE RULE ----
+        if len(st.session_state.block_answers) == 3:
+            if all(st.session_state.block_answers):
+                if st.session_state.level_index < len(LEVELS) - 1:
+                    st.session_state.level_index += 1
+            st.session_state.block_answers.clear()
+            st.session_state.used_concepts.clear()
+
+        # 🔥 clear radio (prevents auto selection)
+        if radio_key in st.session_state:
+            del st.session_state[radio_key]
+
         st.rerun()
